@@ -1,0 +1,15 @@
+global-styling:
+  version: 1.0
+  css:
+    theme:
+      css/header.css: {}
+      css/menu.css: {}
+      css/view.css: {}
+      css/footer.css: {}
+
+global-scripts:
+  version: 1.0
+  js:
+    js/script.js: {}
+  dependencies:
+    - core/jquery

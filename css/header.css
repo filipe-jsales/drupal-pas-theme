@@ -1,0 +1,26 @@
+
+
+
+/*
+  Menu header
+*/
+
+
+/*Center div primary menu*/
+.region-primary-menu{
+	margin-left:300px;
+}
+
+.region-primary-menu span{
+	background-color: #4e4e4e;
+	color: #fff;
+}
+
+.region-primary-menu span:hover{
+	background-color: #4e4e4e;
+	cursor:pointer;
+}
+
+.region-primary-menu ul {
+}
+
