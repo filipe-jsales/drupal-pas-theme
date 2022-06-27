@@ -20,7 +20,7 @@ body{
 .layout-container #header-wrapper{
 	margin: 0 auto;
 	max-width: 1129px;
-	height:189px;
+	height:174px;
 }
 
 /*
@@ -113,7 +113,7 @@ body{
 /*Região do menu cabeçalho*/
 
 #header-wrapper .menu--menu-cabecalho  ul.menu{
-	margin-left: 589px;
+	margin-left: 572px;
 }
 
 #header-wrapper .menu--menu-cabecalho  ul.menu li.menu-item a, span{
@@ -172,12 +172,20 @@ body{
 
 #header-wrapper ul#superfish-menu-rodape li#menu-rodape-menu-link-content402bea4d-7113-4bfb-a725-4b00ae898f4d a{
 	font-size: 12pt;
-	padding: 15px;
+	padding: 10px;
 	text-transform: uppercase;
+	background: none;
+	padding: 8px 12px;
+}
+
+#header-wrapper ul#superfish-menu-rodape li#menu-rodape-menu-link-content402bea4d-7113-4bfb-a725-4b00ae898f4d a:hover{
+	box-shadow: 1px 2px 1px #fff inset,-2px -2px 1px #fff inset;
+	background: #ddd none repeat scroll 0 0;
+	background-color:#cfcfcf;
 }
 
 #header-wrapper ul.sf-menu.menu span{
-	padding: 15px;
+	padding: 8px 12px;
 }
 
 #header-wrapper ul.sf-menu.menu span:hover{
@@ -189,6 +197,8 @@ body{
 
 #header-wrapper #block-menurodape li{
 	text-align:left;
+	padding-right: 10px;
+	padding-left: 10px;
 }
 
 #header-wrapper #block-menurodape ul.menu li a{

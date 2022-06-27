@@ -1,2 +1,160 @@
-.layout-container{
+html {
+    font-family: 'Open Sans';
+    margin-bottom: 0;
+}
+
+.banner_central{
+	width: 100%;
+	margin: 0 auto;
+	height: 450px;
+	background-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/banner_topo_v2.jpg);
+	background-size: cover;
+}
+
+.banner_central_wrapper{
+	margin-top: -37px;	
+}
+
+
+/*
+  Services content
+*/
+
+.servicos_wrapper{
+	width:100%;
+}
+
+.servicos_content {
+        width: 100%;
+        height: 200px;
+	margin: 0 auto;
+	color: #fff;
+        box-shadow: 0px 2px 2px 0px rgb(79,106,79);
+    	opacity: 0.7;
+	background: #01426a;
+	margin-top:-111px;
+}
+
+.servicos_content a{
+	text-decoration: none;
+}
+
+.servicos_content .alinhamento {
+    width: 1129px;
+    margin: 0 auto;
+}
+
+.title_services {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.servicos_content .servico {
+   /* float: left;*/
+	text-align: center;
+    	display:inline-block;
+	width: 24%;
+	font-size: 0.7em;
+	margin-top: -12px;
+}
+
+.servicos_content a {
+    color: #fff;
+}
+
+.banner_central .content{
+	text-align: center;
+	padding-top: 6%;
+	height: 249px;
+}
+
+.banner_central .content h1 {
+        font-size: 48px;
+        color: #3f3f48;
+        text-shadow: 5px 7px 15px #666;
+	margin: 0px 0px 6px 0px;
+}
+
+.banner_central .content span {
+    font-size: 19px;
+    color: #3f3f48;
+}
+
+.servicos_content h2 {
+    margin-top: 4px !important;
+}
+
+.title_services h2 {
+    font-size: 19pt !important;
+    color: #fff !important;
+}
+
+.content a {
+    color: #178AD2;
+    text-decoration: none;
+}
+
+.content a:hover{
+	color: #449BD3;
+}
+
+.servico{
+	transition: transform 0.3s;
+
+}
+
+.servico:hover{
+	transform: translateY(-5px);
+}
+
+/*
+  Icone acesso rápido
+*/
+
+.icon_acesso_rapido {
+    width: 132px;
+    height: 115px;
+    margin: 0 auto;
+}
+
+.icon_acesso_rapido{
+
+}
+
+/*
+  Beneficiário
+*/
+
+.acesso_beneficiario {
+    background-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/services_icons.png);
+    background-position: -8px -32px;
+    background-size: 513px;
+}
+
+/*
+  Credenciados
+*/
+.acesso_credenciados {
+    background-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/services_icons.png);
+    background-position: -154px -36px;
+    background-size: 534px;
+}
+
+/*
+  Peritos
+*/
+.acesso_peritos {
+    background-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/services_icons.png);
+    background-position: -390px -36px;
+    background-size: 535px;
+}
+
+/*
+  Gestores
+*/
+.acesso_gestores {
+    background-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/services_icons.png);
+    background-position: -281px -36px;
+    background-size: 535px;
+    width: 120px;
 }
