@@ -44,33 +44,15 @@
 #}
 <div class="layout-container">
 
-  <header role="banner">
+  <header id="header-wrapper">
     {{ page.header }}
   </header>
 
-  {{ page.primary_menu }}
-  {{ page.secondary_menu }}
-
-  {{ page.breadcrumb }}
-
-  {{ page.featured_top}}
-
-  {{ page.highlighted }}
-
-  {{ page.help }}
-
   <main role="main">
-    <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
 
     <div class="layout-content">
       {{ page.content }}
-    </div>{# /.layout-content #}
-
-    {% if page.sidebar_first %}
-      <aside class="layout-sidebar-first" role="complementary">
-        {{ page.sidebar_first }}
-      </aside>
-    {% endif %}
+    </div>
 
     {% if page.sidebar_second %}
       <aside class="layout-sidebar-second" role="complementary">
@@ -80,10 +62,8 @@
 
   </main>
   
-  {% if page.footer %}
-    <footer role="contentinfo">
-      {{ page.footer }}
-    </footer>
-  {% endif %}
+  <footer id="footer-wrapper" role="contentinfo">
+    {{ page.footer }}
+  </footer>
 
-</div>{# /.layout-container #}
+</div>

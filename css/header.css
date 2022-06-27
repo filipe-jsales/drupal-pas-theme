@@ -1,26 +1,217 @@
+/*
+  Reset default CSS
+*/
+li{
+	list-style:none;
+}
 
-
+body{
+}
 
 /*
   Menu header
 */
 
 
-/*Center div primary menu*/
-.region-primary-menu{
+
+/*
+  Center header wrapper
+*/
+.layout-container #header-wrapper{
+	margin: 0 auto;
+	max-width: 1129px;
+	height:189px;
+}
+
+/*
+  align left logo pas theme
+*/
+#header-wrapper #block-pas-theme-branding{
+	margin: 10px 10px 0px;	
+	opacity: 0.85;
+	width:30%;
+}
+
+#header-wrapper #block-pas-theme-menucabecalho-2{
+	margin-top:-94px;
+}
+
+/*
+  Menu abas
+*/
+
+#header-wrapper .menu--menu-cabecalho ul.menu li.menu-item a{
+	font-size:10pt;
+}
+
+#header-wrapper .menu--menu-cabecalho ul.menu li.menu-item span{
+	color: #01426a;
+	font-weight: none;
+	font-size:13pt;
+}
+
+/*
+  Config form search in header
+*/
+#header-wrapper #search-block-form{
+	width:23%;
+	float:right;
+	margin-top: -12px;	
+	
+}
+
+/*
+  form search style
+*/
+#header-wrapper #block-pas-theme-search{
+	width:100%;
+}
+
+
+#header-wrapper .form-search{
+	width: 168px;
+	float:left;
+	margin-right:5px;
+	padding:4px;
+	border-radius:3px;
+	border: 1px solid #C7C7C7;
+	margin-left:47px;
+}
+
+/*change search button icon*/
+#header-wrapper #edit-actions{
+	/*display:none;*/
+}
+
+#header-wrapper #edit-submit{
+	/*display:none;*/
+	background: url(https://pas.trt8.jus.br/sites/all/themes/execute_responsive_theme/images/search-icon.png) no-repeat center top;
+	height: 27px;
+	width: 29px;
+	padding: 0;
+	cursor: pointer;
+	text-indent: -9999px;
+	overflow: hidden;
+	box-shadow: none;
+	border: 0;
+}
+
+#header-wrapper .region-primary-menu{
 	margin-left:300px;
 }
 
-.region-primary-menu span{
+#header-wrapper .region-primary-menu span{
 	background-color: #4e4e4e;
 	color: #fff;
 }
 
-.region-primary-menu span:hover{
+#header-wrapper .region-primary-menu span:hover{
 	background-color: #4e4e4e;
+	/*cursor:pointer;*/
+}
+
+/*Região do menu cabeçalho*/
+
+#header-wrapper .menu--menu-cabecalho  ul.menu{
+	margin-left: 589px;
+}
+
+#header-wrapper .menu--menu-cabecalho  ul.menu li.menu-item a, span{
+}
+
+#header-wrapper ul.menu li{
+	display:inline-block;
+	font-size: 12pt;
+}
+
+#header-wrapper ul.menu li.menu-item a{
+	color:#757584;
+	text-decoration: none;
+}
+
+#header-wrapper ul.menu li.menu-item a:hover{
+	color:#757584;
+	text-decoration: underline;
+}
+
+#header-wrapper ul.menu li.menu-item span{
+	color:#01426a;
+	font-size:13pt;
+}
+
+#header-wrapper ul.menu li.menu-item{
+	width:auto;
+	padding:5px;
+}
+/*Fim menu cabeçalho*/
+
+
+/*
+  Região Menu superfish
+*/
+
+#header-wrapper .block-superfish{
+	width:100%;
+	height: 26px;
+	margin-top:45px;
+}
+
+#header-wrapper #block-menurodape ul.sf-menu.menu{
+	text-align: center;
+	text-transform: uppercase;
+	color: #4e4e4e;
+	font-size: 15px;
+	margin-left:53px;
+	text-decoration: none;
+}
+
+#header-wrapper ul.sf-menu a{
+	text-decoration: none;
+	color: #4e4e4e;
+}
+
+#header-wrapper ul#superfish-menu-rodape li#menu-rodape-menu-link-content402bea4d-7113-4bfb-a725-4b00ae898f4d a{
+	font-size: 12pt;
+	padding: 15px;
+	text-transform: uppercase;
+}
+
+#header-wrapper ul.sf-menu.menu span{
+	padding: 15px;
+}
+
+#header-wrapper ul.sf-menu.menu span:hover{
+	cursor:default;
+	box-shadow: 1px 2px 1px #fff inset,-2px -2px 1px #fff inset;
+	background: #ddd none repeat scroll 0 0;
+	background-color:#cfcfcf;
+}
+
+#header-wrapper #block-menurodape li{
+	text-align:left;
+}
+
+#header-wrapper #block-menurodape ul.menu li a{
+	color:#4e4e4e;
+	text-transform: none;
+	font-size: 13px;
+	color: #4e4e4e;
+	background: #ffffff none repeat scroll 0 0;
+	border: medium none;
+}
+
+#header-wrapper #block-menurodape ul.menu li a:hover {
 	cursor:pointer;
+	box-shadow: 1px 2px 1px #fff inset,-2px -2px 1px #fff inset;
+	background: #ddd none repeat scroll 0 0;
+	background-color:#cfcfcf;
+
 }
 
-.region-primary-menu ul {
-}
+/*
+  li superfish
+*/
 
+#header-wrapper ul.sf-hidden li{
+	
+}
