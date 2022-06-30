@@ -66,14 +66,35 @@ a{
 	margin-bottom:25px;
 }
 
+.view-noticias .views-field-title:hover{
+	text-decoration: underline;
+	text-decoration-color: #01426a;
+}
+
 /*noticias img*/
 
 .views-row img{
 	height:226px;
+	padding: 5px;
+	box-shadow: 0 0 3px #EEE;
+	background: #FFF;
+	border: #EEE 1px solid;
+
+}
+
+.views-row img:hover{
+	background:#f0f0f0;
 }
 
 /*noticias description*/
 
 .view-noticias .views-field-body{
 	width:340px;
+}
+
+.view-noticias .views-field-body p{
+	width:340px;
+	color:#666;
+	text-align:justify;
+	font-size: 13px;
 }
