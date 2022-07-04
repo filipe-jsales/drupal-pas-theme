@@ -4,10 +4,6 @@ a{
 	color: #178AD2;
 }
 
-
-
-
-
 .title-view{
 	width: 1129px;
 	margin: 0 auto;
@@ -97,4 +93,132 @@ a{
 	color:#666;
 	text-align:justify;
 	font-size: 13px;
+}
+
+
+
+/*
+  View footer
+  .view-footer
+*/
+
+/*footer wrapper first*/
+
+.view-footer .services_wrapper{
+	padding: 40px 0 10px;
+	background-color: #007db8;
+	background-image: linear-gradient(to right top,#2ea1ad,#0f5285);
+	box-shadow: 0px 0px 3px 1px #0f5285;
+}
+
+/*content inside first wrapper*/
+
+.view-footer .services_wrapper .services_content{
+	width: 1129px;
+	margin: 0 auto;
+}
+
+/*title news top*/
+
+.view-footer .news_top .service_title{
+	color: #fff;
+	font-size:19px;
+}
+
+/*marker top*/
+
+.view-footer .service_marker{
+	border-top: #fff 1px solid;
+	margin: 0 0 28px 0;
+}
+
+/*services items*/
+
+.view-footer .service_item{
+	display: inline-block;
+	vertical-align: top;
+	width:24%;
+	padding: 0px 14px 32px 20px;
+	transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.view-footer .service_item a {
+	transition: 0.2s;
+	text-decoration: none;
+}
+
+/*icones default*/
+
+.view-footer .service_icon{
+	transition: 0.5s;
+	background-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/services_icons.png);
+	width:58px;
+	height:58px;
+	border-radius:14px;
+	margin: 3px auto;
+	background-size: 400px;
+}
+
+/*services titles default*/
+
+.view-footer .service_item_title{
+	font-family: "Open Sans";
+	text-align: center;
+	color: #fff;
+}
+
+/*icone aderir*/
+
+.view-footer .service_icon_aderir{
+	background-position-x: -133px;
+	background-position-y: -164px;
+}
+
+/*icone incluir*/
+
+.view-footer .service_icon_incluir{
+	background-position-x: -28px;
+	background-position-y: -164px;
+}
+
+/*icone solicitar exclusão do plano*/
+
+.view-footer .service_icon_solicitar{
+	background-position-x: -227px;
+	background-position-y: -164px;
+}
+
+/*icone consultar débito*/
+
+.view-footer .service_icon_consultar{
+	background-position-x: -30px;
+	background-position-y: -235px;
+}
+
+/*icone regras de utilização*/
+
+.view-footer .service_icon_quitar{
+	background-position-x: -325px;
+	background-position-y: -237px;
+}
+
+/*icone parcerias firmadas*/
+
+.view-footer .service_icon_parcerias{
+	background-position-x: -227px;
+	background-position-y: -237px;
+}
+
+/*icone solicitar autorização de procedimentos*/
+
+.view-footer .service_icon_2via{
+	background-position-x: -126px;
+	background-position-y: -237px;
+}
+
+/*icone modelos de requerimentos*/
+
+.view-footer .service_icon_modelos{
+	background-position-x: -182px;
+	background-position-y: -302px;
 }
