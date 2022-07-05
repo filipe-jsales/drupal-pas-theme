@@ -6,11 +6,290 @@ a{
 }
 
 p {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
-.title-view{
+html {
+	font-family: 'Open Sans';
+	margin-bottom: 0;
+}
+
+/*View Notícias Header*/
+
+
+.view-noticias .view-header .banner_central_wrapper{
+}
+
+/*banner central background*/
+
+.view-noticias .view-header .banner_central_wrapper .banner_central{
+        width: 100%;
+        margin: 0 auto;
+        height: 450px;
+        background-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/banner_topo_v2.jpg);
+        background-size: cover;
+}
+
+/*serviços content*/
+
+.view-noticias .view-header .banner_central .content{
+        text-align: center;
+        padding-top: 6%;
+        height: 236px;
+}
+
+.view-noticias .view-header .servicos_content {
+        width: 100%;
+        height: 200px;
+        margin: 0 auto;
+        color: #fff;
+        box-shadow: 0px 2px 2px 0px rgb(79,106,79);
+        opacity: 0.7;
+        background: #01426a;
+        margin-top:-96px;
+}
+
+.view-noticias .view-header .servicos_content a{
+        text-decoration: none;
+}
+
+.view-noticias .view-header .servicos_content .alinhamento {
+    width: 1129px;
+    margin: 0 auto;
+}
+
+.view-noticias .view-header .servicos_content .title_services {
+    text-align: center;
+    padding-top: 1px;
+}
+
+.view-noticias .view-header .servicos_content .servico {
+        text-align: center;
+        display:inline-block;
+        width: 24%;
+        font-size: 0.7em;
+        margin-top: -12px;
+}
+
+.view-noticias .view-header .servicos_content a {
+	color: #fff;
+}
+
+
+.view-noticias .view-header .banner_central .content h1 {
+        font-size: 48px;
+        color: #3f3f48;
+        text-shadow: 5px 7px 15px #666;
+        margin: 0px 0px 6px 0px;
+}
+
+.view-noticias .view-header .banner_central .content span {
+    	font-size: 19px;
+	color: #3f3f48;
+}
+
+.view-noticias .view-header .servicos_content h2 {
+	margin-top: -4px !important;
+}
+
+.view-noticias .view-header .servicos_content .servico h2 {
+	margin-top: 4px !important;
+	font-size: 17px;
+	letter-spacing: 1.3px;
+	font-weight:normal;
+}
+
+.view-noticias .view-header .servicos_content .title_services h2 {
+    	font-size: 19pt !important;
+	color: #fff !important;
+	margin-top:10px;
+	font-weight:normal;
+}
+
+.view-noticias .view-header .banner_central .content a {
+	color: #178AD2;
+	text-decoration: none;
+}
+
+.view-noticias .view-header .banner_central .content a:hover{
+        color: #449BD3;
+}
+
+.view-noticias .view-header .servicos_content .servico{
+        transition: transform 0.3s;
+
+}
+
+
+.view-noticias .view-header .servicos_content .servico:hover{
+        transform: translateY(-5px);
+}
+
+/*
+  Icones acesso rápido default
+*/
+
+.view-noticias .view-header .servicos_content .servico .icon_acesso_rapido {
+    	width: 132px;
+	height: 115px;
+	margin: 0 auto;
+}
+
+/*
+  Beneficiário
+*/
+
+.view-noticias .view-header .servico .acesso_beneficiario {
+    background-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/services_icons.png);
+    background-position: -8px -32px;
+    background-size: 513px;
+}
+
+/*
+  Credenciados
+*/
+.view-noticias .view-header .servico .acesso_credenciados {
+    background-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/services_icons.png);
+    background-position: -154px -36px;
+    background-size: 534px;
+}
+
+/*
+  Peritos
+*/
+.view-noticias .view-header .servico .acesso_peritos {
+    background-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/services_icons.png);
+    background-position: -390px -36px;
+    background-size: 535px;
+}
+
+
+/*
+  Gestores
+*/
+.view-noticias .view-header .servico .acesso_gestores {
+    background-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/services_icons.png);
+    background-position: -281px -36px;
+    background-size: 535px;
+    width: 120px;
+}
+
+
+
+/*
+  Links Úteis
+*/
+
+
+/*Links úteis div*/
+.view-noticias .view-header .links_uteis_content {
+    width: 1129px;
+    margin: 30px auto;
+    height: 175px;
+}
+
+/*Links úteis grid content*/
+.view-noticias .view-header .links_uteis_content .link_item {
+        width: 336px;
+        height: 134px;
+        padding-left: 7px;
+        display:inline-block;
+        border-left: 10px solid;
+        border-left-style: solid;
+        border-left-width: 10px;
+        border-radius: 4px;
+        border-style: solid;
+        border-width: 0 7px;
+        border-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/borderv2.png) 0 0 0 7 fill stretch;
+        box-shadow: 0px 0px 5px 0px rgba(206,206,206,0.94);
+        padding-top: 6px;
+        padding-bottom: 16px;
+        padding-right: 0px;
+        transition: transform 0.3s,box-shadow 0.3s;
+        margin-right: 12px;
+}
+
+.view-noticias .view-header .link_item{
+    transform:0.3s;
+}
+
+.view-noticias .view-header .link_item:hover {
+    transform: translateY(-5px);
+}
+
+.view-noticias .view-header .link_item a {
+    color: #fff;
+}
+
+.view-noticias .view-header .links_uteis_content .link_item .topo_item {
+    height: 82px;
+    margin-top:-26px;
+}
+
+.view-noticias .view-header .imagem_item {
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin: 12px 26px 0 10px;
+}
+
+.view-noticias .view-header .links_uteis_content .link_item .topo_item h2 {
+    color: #a61933;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+
+.view-noticias .view-header .links_uteis_content .link_item .corpo_item {
+    color: #535362;
+    text-align: left;
+    padding-left: 5px;
+}
+
+.view-noticias .view-header .corpo_item p {
+    margin-top: 19px;
+    text-align: left;
+    padding-left: 5px;
+    font-size: 15px;
+}
+
+/*
+  Imagem background guia médico
+*/
+
+.view-noticias .view-header .imagem_guia_medico {
+    background-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/services_icons.png);
+    background-position: 310px 198px;
+    background-size: 310px;
+}
+
+/*
+  Imagem seus gastos
+*/
+
+.view-noticias .view-header .imagem_seus_gastos {
+       background-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/services_icons.png);
+    background-position: 60px 198px;
+    background-size: 310px;
+}
+
+/*
+  Imagem autorização internet
+*/
+
+.view-noticias .view-header .imagem_autorizacao_internet {
+    background-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/services_icons.png);
+    background-position: 179px 198px;
+    background-size: 310px;
+}
+
+
+
+
+/*Here ends view header*/
+
+.view-noticias .title-view{
 	width: 1129px;
 	margin: 0 auto;
         margin-bottom: 0px;
@@ -21,23 +300,23 @@ p {
 }
 
 /*View title notícias*/
-.col-left{
+.view-noticias .col-left{
 	display:inline-block;
 }
 
-.col-left h2{
+.view-noticias .col-left h2{
 	font-weight:bold;
 	color:#01426a;
 	font-size: 19px;
 }
 
-.col-right{
+.view-noticias .col-right{
 	position:absolute;
 	right:0px;
 	top:18px;
 }
 
-.col-right a{
+.view-noticias .col-right a{
 	text-decoration:none;
 	font-size: 13px;
 	padding: 5px;
@@ -54,9 +333,10 @@ p {
 .view-noticias .view-content .views-row{
 	display:inline-block;
 	width:33%;
+	margin-bottom: 90px;
 }
 
-.view-content .views-field-title a {
+.view-noticias .view-content .views-field-title a {
         color: #01426a;
 	text-decoration:none;
 }
@@ -75,8 +355,7 @@ p {
 
 /*noticias img*/
 
-.views-row img{
-	height:226px;
+.view-noticias .views-row img{
 	padding: 5px;
 	box-shadow: 0 0 3px #EEE;
 	background: #FFF;
@@ -84,7 +363,7 @@ p {
 
 }
 
-.views-row img:hover{
+.view-noticias .views-row img:hover{
 	background:#f0f0f0;
 }
 
@@ -110,7 +389,7 @@ p {
 
 /*footer wrapper first*/
 
-.view-footer .services_wrapper{
+.view-noticias .view-footer .services_wrapper{
 	padding: 40px 0 10px;
 	background-color: #007db8;
 	background-image: linear-gradient(to right top,#2ea1ad,#0f5285);
@@ -119,14 +398,14 @@ p {
 
 /*content inside first wrapper*/
 
-.view-footer .services_wrapper .services_content{
+.view-noticias .view-footer .services_wrapper .services_content{
 	width: 1129px;
 	margin: 0 auto;
 }
 
 /*title news top*/
 
-.view-footer .news_top .service_title{
+.view-noticias .view-footer .news_top .service_title{
 	color: #fff;
 	font-size:19px;
 	font-weight: normal;
@@ -134,14 +413,14 @@ p {
 
 /*marker top*/
 
-.view-footer .service_marker{
+.view-noticias .view-footer .service_marker{
 	border-top: #fff 1px solid;
 	margin: 0 0 28px 0;
 }
 
 /*services items*/
 
-.view-footer .service_item{
+.view-noticias .view-footer .service_item{
 	display: inline-block;
 	vertical-align: top;
 	width:21%;
@@ -149,7 +428,7 @@ p {
 	transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.view-footer .service_item a {
+.view-noticias .view-footer .service_item a {
 	transition: 0.2s;
 	text-decoration: none;
 	transition: 0.2s;
@@ -162,19 +441,19 @@ p {
 	margin: 0 auto;
 }
 
-.view-footer .service_item a:hover{
+.view-noticias .view-footer .service_item a:hover{
 	transform: translateY(-5px);
 	box-shadow: 0px 0px 1px 2px #CCC,inset 0px 0px 3px 0px #CCC;
 	transition: 0.5s;
 }
 
-.view-footer .service_item a:hover .service_icon{
+.view-noticias .view-footer .service_item a:hover .service_icon{
 	transform: rotate(15deg);
 }
 
 /*icones default*/
 
-.view-footer .service_icon{
+.view-noticias .view-footer .service_icon{
 	transition: 0.5s;
 	background-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/services_icons.png);
 	width:58px;
@@ -186,7 +465,7 @@ p {
 
 /*services titles default*/
 
-.view-footer .service_item_title{
+.view-noticias .view-footer .service_item_title{
 	font-family: "Open Sans";
 	text-align: center;
 	color: #fff;
@@ -194,56 +473,56 @@ p {
 
 /*icone aderir*/
 
-.view-footer .service_icon_aderir{
+.view-noticias .view-footer .service_icon_aderir{
 	background-position-x: -133px;
 	background-position-y: -164px;
 }
 
 /*icone incluir*/
 
-.view-footer .service_icon_incluir{
+.view-noticias .view-footer .service_icon_incluir{
 	background-position-x: -28px;
 	background-position-y: -164px;
 }
 
 /*icone solicitar exclusão do plano*/
 
-.view-footer .service_icon_solicitar{
+.view-noticias .view-footer .service_icon_solicitar{
 	background-position-x: -227px;
 	background-position-y: -164px;
 }
 
 /*icone consultar débito*/
 
-.view-footer .service_icon_consultar{
+.view-noticias .view-footer .service_icon_consultar{
 	background-position-x: -30px;
 	background-position-y: -235px;
 }
 
 /*icone regras de utilização*/
 
-.view-footer .service_icon_quitar{
+.view-noticias .view-footer .service_icon_quitar{
 	background-position-x: -325px;
 	background-position-y: -237px;
 }
 
 /*icone parcerias firmadas*/
 
-.view-footer .service_icon_parcerias{
+.view-noticias .view-footer .service_icon_parcerias{
 	background-position-x: -227px;
 	background-position-y: -237px;
 }
 
 /*icone solicitar autorização de procedimentos*/
 
-.view-footer .service_icon_2via{
+.view-noticias .view-footer .service_icon_2via{
 	background-position-x: -126px;
 	background-position-y: -237px;
 }
 
 /*icone modelos de requerimentos*/
 
-.view-footer .service_icon_modelos{
+.view-noticias .view-footer .service_icon_modelos{
 	background-position-x: -182px;
 	background-position-y: -302px;
 }
@@ -254,12 +533,12 @@ p {
 */
 
 
-.view-footer .contact{
+.view-noticias .view-footer .contact{
 	background: linear-gradient(0deg,rgba(227,227,227,1) 0%,rgba(227,227,227,1) 3%,rgba(227,227,227,1) 7%,rgba(247,247,249,1) 69%,rgba(247,247,249,1) 100%);
 }
 
 
-.view-footer .contact .contact_content{
+.view-noticias .view-footer .contact .contact_content{
 	width: 1129px;
 	margin: 0 auto;
 	padding: 15px;
@@ -267,7 +546,7 @@ p {
 
 /*Contact box default*/
 
-.view-footer .contact .contact_box{
+.view-noticias .view-footer .contact .contact_box{
 	display: inline-block;
 	vertical-align: top;
 	width: 29%;
@@ -280,7 +559,7 @@ p {
 }
 
 /*Contact title h2 default*/
-.view-footer .contact .contact_title h2{
+.view-noticias .view-footer .contact .contact_title h2{
 	text-decoration: none;
 	font-weight: normal;
 	color: #646473;
@@ -292,12 +571,12 @@ p {
 
 /*Contact text default*/
 
-.view-footer .contact .contact_text{
+.view-noticias .view-footer .contact .contact_text{
 	clear: both;
 	padding: 0 15px;
 }
 
-.view-footer .contact .contact_text p{
+.view-noticias .view-footer .contact .contact_text p{
 	font-size: 15px;
 	color: #4f4f51;
 	text-align: left;
@@ -305,7 +584,7 @@ p {
 
 /*contact phone*/
 
-.view-footer .contact .contact_icon_phone{
+.view-noticias .view-footer .contact .contact_icon_phone{
 	width: 63px;
 	height: 74px;
 	float: left;
@@ -317,7 +596,7 @@ p {
 
 /*contact fale conosco*/
 
-.view-footer .contact .contact_icon_message{
+.view-noticias .view-footer .contact .contact_icon_message{
 	width: 63px;
 	height: 74px;
 	float: left;
@@ -327,7 +606,7 @@ p {
 	background-size: 423px;
 }
 
-.view-footer .contact .contact_icon_address{
+.view-noticias .view-footer .contact .contact_icon_address{
 	width: 63px;
 	height: 74px;
 	float: left;
