@@ -238,23 +238,23 @@ html {
 /*Corpo itens default*/
 
 .view-noticias .view-header .links_uteis_content .link_item .topo_item h2 {
-    color: #a61933;
-    font-size: 28px;
-    font-weight: bold;
+    	color: #a61933;
+	font-size: 28px;
+	font-weight: bold;
 }
 
 
 .view-noticias .view-header .links_uteis_content .link_item .corpo_item {
-    color: #535362;
-    text-align: left;
-    padding-left: 5px;
+	color: #535362;
+	text-align: left;
+	padding-left: 5px;
 }
 
 .view-noticias .view-header .links_uteis_content .link_item .corpo_item p {
-    margin-top: 19px;
-    text-align: left;
-    padding-left: 5px;
-    font-size: 15px;
+	margin-top: 19px;
+	text-align: left;
+	padding-left: 5px;
+	font-size: 15px;
 }
 
 /*
@@ -262,9 +262,9 @@ html {
 */
 
 .view-noticias .view-header .imagem_guia_medico {
-    background-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/services_icons.png);
-    background-position: 310px 198px;
-    background-size: 310px;
+	background-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/services_icons.png);
+	background-position: 310px 198px;
+	background-size: 310px;
 }
 
 /*
@@ -272,9 +272,9 @@ html {
 */
 
 .view-noticias .view-header .imagem_seus_gastos {
-       background-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/services_icons.png);
-    background-position: 60px 198px;
-    background-size: 310px;
+        background-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/services_icons.png);
+        background-position: 60px 198px;
+        background-size: 310px;
 }
 
 /*
@@ -282,17 +282,14 @@ html {
 */
 
 .view-noticias .view-header .imagem_autorizacao_internet {
-    background-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/services_icons.png);
-    background-position: 179px 198px;
-    background-size: 310px;
+	background-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/services_icons.png);
+	background-position: 179px 198px;
+	background-size: 310px;
 }
 
+/*View title notícias*/
 
-
-
-/*Here ends view header*/
-
-.view-noticias .title-view{
+.view-noticias .view-header .title-view{
 	width: 1129px;
 	margin: 0 auto;
         margin-bottom: 0px;
@@ -302,30 +299,34 @@ html {
 	position:relative;
 }
 
-/*View title notícias*/
-.view-noticias .col-left{
+
+.view-noticias .view-header .title-view .col-left{
 	display:inline-block;
 }
 
-.view-noticias .col-left h2{
+.view-noticias .view-header .title-view .col-left h2{
 	font-weight:bold;
 	color:#01426a;
 	font-size: 19px;
 }
 
-.view-noticias .col-right{
+.view-noticias .view-header .title-view .col-right{
 	position:absolute;
 	right:0px;
 	top:18px;
 }
 
-.view-noticias .col-right a{
+.view-noticias .view-header .title-view .col-right a{
 	text-decoration:none;
 	font-size: 13px;
 	padding: 5px;
 }
 
-/*Views content*/
+
+/*Here ends view header*/
+
+
+/*Views Notícias content*/
 
 
 .view-noticias .view-content{
