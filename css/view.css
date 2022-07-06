@@ -137,45 +137,43 @@ html {
 }
 
 /*
-  Beneficiário
+  Beneficiários img
 */
 
-.view-noticias .view-header .servico .acesso_beneficiario {
-    background-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/services_icons.png);
-    background-position: -8px -32px;
-    background-size: 513px;
+.view-noticias .view-header .servicos_content .servico .acesso_beneficiario {
+    	background-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/services_icons.png);
+	background-position: -8px -32px;
+	background-size: 513px;
 }
 
 /*
-  Credenciados
+  Credenciados img
 */
-.view-noticias .view-header .servico .acesso_credenciados {
-    background-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/services_icons.png);
-    background-position: -154px -36px;
-    background-size: 534px;
+.view-noticias .view-header .servicos_content .servico .acesso_credenciados {
+	background-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/services_icons.png);
+	background-position: -154px -36px;
+	background-size: 534px;
 }
 
 /*
-  Peritos
+  Peritos img
 */
-.view-noticias .view-header .servico .acesso_peritos {
-    background-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/services_icons.png);
-    background-position: -390px -36px;
-    background-size: 535px;
+.view-noticias .view-header .servicos_content .servico .acesso_peritos {
+	background-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/services_icons.png);
+	background-position: -390px -36px;
+	background-size: 535px;
 }
 
 
 /*
-  Gestores
+  Gestores img
 */
-.view-noticias .view-header .servico .acesso_gestores {
-    background-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/services_icons.png);
-    background-position: -281px -36px;
-    background-size: 535px;
-    width: 120px;
+.view-noticias .view-header .servicos_content .servico .acesso_gestores {
+	background-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/services_icons.png);
+	background-position: -281px -36px;
+	background-size: 535px;
+	width: 120px;
 }
-
-
 
 /*
   Links Úteis
@@ -184,12 +182,13 @@ html {
 
 /*Links úteis div*/
 .view-noticias .view-header .links_uteis_content {
-    width: 1129px;
-    margin: 30px auto;
-    height: 175px;
+	width: 1129px;
+	margin: 30px auto;
+	height: 175px;
 }
 
 /*Links úteis grid content*/
+
 .view-noticias .view-header .links_uteis_content .link_item {
         width: 336px;
         height: 134px;
@@ -210,29 +209,33 @@ html {
         margin-right: 12px;
 }
 
-.view-noticias .view-header .link_item{
-    transform:0.3s;
+.view-noticias .view-header .links_uteis_content .link_item{
+	transform:0.3s;
 }
 
-.view-noticias .view-header .link_item:hover {
-    transform: translateY(-5px);
+.view-noticias .view-header .links_uteis_content .link_item:hover {
+	transform: translateY(-5px);
 }
 
-.view-noticias .view-header .link_item a {
-    color: #fff;
+.view-noticias .view-header .links_uteis_content .link_item a {
+	color: #fff;
 }
 
 .view-noticias .view-header .links_uteis_content .link_item .topo_item {
-    height: 82px;
-    margin-top:-26px;
+	height: 82px;
+	margin-top:-26px;
 }
 
-.view-noticias .view-header .imagem_item {
-    float: left;
-    width: 60px;
-    height: 60px;
-    margin: 12px 26px 0 10px;
+/*Imagem itens default*/
+
+.view-noticias .view-header .links_uteis_content .link_item .imagem_item {
+	float: left;
+	width: 60px;
+	height: 60px;
+	margin: 12px 26px 0 10px;
 }
+
+/*Corpo itens default*/
 
 .view-noticias .view-header .links_uteis_content .link_item .topo_item h2 {
     color: #a61933;
@@ -247,7 +250,7 @@ html {
     padding-left: 5px;
 }
 
-.view-noticias .view-header .corpo_item p {
+.view-noticias .view-header .links_uteis_content .link_item .corpo_item p {
     margin-top: 19px;
     text-align: left;
     padding-left: 5px;
