@@ -258,7 +258,7 @@ html {
 }
 
 /*
-  Imagem background guia médico
+  Imagem guia médico e odontológico
 */
 
 .view-noticias .view-header .imagem_guia_medico {
@@ -268,7 +268,7 @@ html {
 }
 
 /*
-  Imagem seus gastos
+  Imagem histórico de utilização
 */
 
 .view-noticias .view-header .imagem_seus_gastos {
@@ -278,7 +278,7 @@ html {
 }
 
 /*
-  Imagem autorização internet
+  Imagem autorização online
 */
 
 .view-noticias .view-header .imagem_autorizacao_internet {
@@ -346,28 +346,27 @@ html {
 }
 
 /*title noticias*/
-.view-noticias .views-field-title{
+.view-noticias .view-content .views-field-title{
 	width:340px;
 	margin-top:10px;
 	margin-bottom:25px;
 }
 
-.view-noticias .views-field-title:hover{
+.view-noticias .view-content .views-field-title:hover{
 	text-decoration: underline;
 	text-decoration-color: #01426a;
 }
 
 /*noticias img*/
 
-.view-noticias .views-row img{
+.view-noticias .view-content .views-row img{
 	padding: 5px;
 	box-shadow: 0 0 3px #EEE;
 	background: #FFF;
 	border: #EEE 1px solid;
-
 }
 
-.view-noticias .views-row img:hover{
+.view-noticias .view-content .views-row img:hover{
 	background:#f0f0f0;
 }
 
