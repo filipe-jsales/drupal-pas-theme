@@ -59,17 +59,19 @@ html, body{
 }
 
 
+/*footer span style*/
+
 #footer-wrapper .region-footer #block-pas-theme-menurodape ul.menu span{
-	font-size: 0.83em;
+	font-size: 0.9em;
 	padding: 0 0 6px;
 	font-weight: 600;
 	display: block;
-	/*font-family: Overlock;*/
+	font-family: Overlock;
 	color: #fff;
 	letter-spacing: 0.05em;
 }
 
-/*contact link style*/
+/*footer link a style*/
 
 #footer-wrapper .region-footer #block-pas-theme-menurodape ul li a{
 	font-size: 0.9em;
@@ -81,3 +83,6 @@ html, body{
 }
 
 
+#footer-wrapper .region-footer #block-pas-theme-menurodape ul li a:hover{
+	text-decoration: underline;
+}
