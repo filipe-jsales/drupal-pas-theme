@@ -339,7 +339,7 @@ html {
 
 .view-noticias .view-content .views-row{
 	display:inline-block;
-	width:33%;
+	width:28%;
 	margin-bottom: 90px;
 	vertical-align:top;
 	margin-top:10px;
@@ -352,7 +352,7 @@ html {
 
 /*title noticias*/
 .view-noticias .view-content .views-field-title{
-	width:340px;
+	width:294px;
 	margin-top:10px;
 	margin-bottom:25px;
 }
