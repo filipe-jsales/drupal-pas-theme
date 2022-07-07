@@ -62,7 +62,7 @@ html, body{
 /*footer span style*/
 
 #footer-wrapper .region-footer #block-pas-theme-menurodape ul.menu span{
-	font-size: 0.9em;
+	font-size: 1em;
 	padding: 0 0 6px;
 	font-weight: 600;
 	display: block;
@@ -74,7 +74,7 @@ html, body{
 /*footer link a style*/
 
 #footer-wrapper .region-footer #block-pas-theme-menurodape ul li a{
-	font-size: 0.9em;
+	font-size: 1em;
 	font-family: Overlock;
 	color: #fff;
 	letter-spacing: 0.05em;

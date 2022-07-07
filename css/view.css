@@ -21,12 +21,12 @@ html {
 */
 
 
-.view-noticias .view-header .banner_central_wrapper{
+body.path-frontpage .view-noticias .view-header .banner_central_wrapper{
 }
 
 /*banner central background*/
 
-.view-noticias .view-header .banner_central_wrapper .banner_central{
+body.path-frontpage .view-noticias .view-header .banner_central_wrapper .banner_central{
         width: 100%;
         margin: 0 auto;
         height: 450px;
@@ -36,13 +36,13 @@ html {
 
 /*serviços content*/
 
-.view-noticias .view-header .banner_central .content{
+body.path-frontpage .view-noticias .view-header .banner_central .content{
         text-align: center;
         padding-top: 6%;
         height: 236px;
 }
 
-.view-noticias .view-header .servicos_content {
+body.path-frontpage .view-noticias .view-header .servicos_content {
         width: 100%;
         height: 200px;
         margin: 0 auto;
@@ -53,21 +53,21 @@ html {
         margin-top:-96px;
 }
 
-.view-noticias .view-header .servicos_content a{
+body.path-frontpage .view-noticias .view-header .servicos_content a{
         text-decoration: none;
 }
 
-.view-noticias .view-header .servicos_content .alinhamento {
+body.path-frontpage .view-noticias .view-header .servicos_content .alinhamento {
     width: 1129px;
     margin: 0 auto;
 }
 
-.view-noticias .view-header .servicos_content .title_services {
+body.path-frontpage .view-noticias .view-header .servicos_content .title_services {
     text-align: center;
     padding-top: 1px;
 }
 
-.view-noticias .view-header .servicos_content .servico {
+body.path-frontpage .view-noticias .view-header .servicos_content .servico {
         text-align: center;
         display:inline-block;
         width: 24%;
@@ -75,57 +75,57 @@ html {
         margin-top: -12px;
 }
 
-.view-noticias .view-header .servicos_content a {
+body.path-frontpage .view-noticias .view-header .servicos_content a {
 	color: #fff;
 }
 
 
-.view-noticias .view-header .banner_central .content h1 {
+body.path-frontpage .view-noticias .view-header .banner_central .content h1 {
         font-size: 48px;
         color: #3f3f48;
         text-shadow: 5px 7px 15px #666;
         margin: 0px 0px 6px 0px;
 }
 
-.view-noticias .view-header .banner_central .content span {
+body.path-frontpage .view-noticias .view-header .banner_central .content span {
     	font-size: 19px;
 	color: #3f3f48;
 }
 
-.view-noticias .view-header .servicos_content h2 {
+body.path-frontpage .view-noticias .view-header .servicos_content h2 {
 	margin-top: -4px !important;
 }
 
-.view-noticias .view-header .servicos_content .servico h2 {
+body.path-frontpage .view-noticias .view-header .servicos_content .servico h2 {
 	margin-top: 4px !important;
 	font-size: 17px;
 	letter-spacing: 1.3px;
 	font-weight:normal;
 }
 
-.view-noticias .view-header .servicos_content .title_services h2 {
+body.path-frontpage .view-noticias .view-header .servicos_content .title_services h2 {
     	font-size: 19pt !important;
 	color: #fff !important;
 	margin-top:10px;
 	font-weight:normal;
 }
 
-.view-noticias .view-header .banner_central .content a {
+body.path-frontpage .view-noticias .view-header .banner_central .content a {
 	color: #178AD2;
 	text-decoration: none;
 }
 
-.view-noticias .view-header .banner_central .content a:hover{
+body.path-frontpage .view-noticias .view-header .banner_central .content a:hover{
         color: #449BD3;
 }
 
-.view-noticias .view-header .servicos_content .servico{
+body.path-frontpage .view-noticias .view-header .servicos_content .servico{
         transition: transform 0.3s;
 
 }
 
 
-.view-noticias .view-header .servicos_content .servico:hover{
+body.path-frontpage .view-noticias .view-header .servicos_content .servico:hover{
         transform: translateY(-5px);
 }
 
@@ -133,7 +133,7 @@ html {
   Icones acesso rápido default
 */
 
-.view-noticias .view-header .servicos_content .servico .icon_acesso_rapido {
+body.path-frontpage .view-noticias .view-header .servicos_content .servico .icon_acesso_rapido {
     	width: 132px;
 	height: 115px;
 	margin: 0 auto;
@@ -143,7 +143,7 @@ html {
   Beneficiários img
 */
 
-.view-noticias .view-header .servicos_content .servico .acesso_beneficiario {
+body.path-frontpage .view-noticias .view-header .servicos_content .servico .acesso_beneficiario {
     	background-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/services_icons.png);
 	background-position: -8px -32px;
 	background-size: 513px;
@@ -152,7 +152,7 @@ html {
 /*
   Credenciados img
 */
-.view-noticias .view-header .servicos_content .servico .acesso_credenciados {
+body.path-frontpage .view-noticias .view-header .servicos_content .servico .acesso_credenciados {
 	background-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/services_icons.png);
 	background-position: -154px -36px;
 	background-size: 534px;
@@ -161,7 +161,7 @@ html {
 /*
   Peritos img
 */
-.view-noticias .view-header .servicos_content .servico .acesso_peritos {
+body.path-frontpage .view-noticias .view-header .servicos_content .servico .acesso_peritos {
 	background-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/services_icons.png);
 	background-position: -390px -36px;
 	background-size: 535px;
@@ -171,7 +171,7 @@ html {
 /*
   Gestores img
 */
-.view-noticias .view-header .servicos_content .servico .acesso_gestores {
+body.path-frontpage .view-noticias .view-header .servicos_content .servico .acesso_gestores {
 	background-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/services_icons.png);
 	background-position: -281px -36px;
 	background-size: 535px;
@@ -184,7 +184,7 @@ html {
 
 
 /*Links úteis div*/
-.view-noticias .view-header .links_uteis_content {
+body.path-frontpage .view-noticias .view-header .links_uteis_content {
 	width: 1129px;
 	margin: 30px auto;
 	height: 175px;
@@ -192,7 +192,7 @@ html {
 
 /*Links úteis grid content*/
 
-.view-noticias .view-header .links_uteis_content .link_item {
+body.path-frontpage .view-noticias .view-header .links_uteis_content .link_item {
         width: 336px;
         height: 134px;
         padding-left: 7px;
@@ -212,26 +212,26 @@ html {
         margin-right: 12px;
 }
 
-.view-noticias .view-header .links_uteis_content .link_item{
+body.path-frontpage .view-noticias .view-header .links_uteis_content .link_item{
 	transform:0.3s;
 }
 
-.view-noticias .view-header .links_uteis_content .link_item:hover {
+body.path-frontpage .view-noticias .view-header .links_uteis_content .link_item:hover {
 	transform: translateY(-5px);
 }
 
-.view-noticias .view-header .links_uteis_content .link_item a {
+body.path-frontpage .view-noticias .view-header .links_uteis_content .link_item a {
 	color: #fff;
 }
 
-.view-noticias .view-header .links_uteis_content .link_item .topo_item {
+body.path-frontpage .view-noticias .view-header .links_uteis_content .link_item .topo_item {
 	height: 82px;
 	margin-top:-26px;
 }
 
 /*Imagem itens default*/
 
-.view-noticias .view-header .links_uteis_content .link_item .imagem_item {
+body.path-frontpage .view-noticias .view-header .links_uteis_content .link_item .imagem_item {
 	float: left;
 	width: 60px;
 	height: 60px;
@@ -240,20 +240,20 @@ html {
 
 /*Corpo itens default*/
 
-.view-noticias .view-header .links_uteis_content .link_item .topo_item h2 {
+body.path-frontpage .view-noticias .view-header .links_uteis_content .link_item .topo_item h2 {
     	color: #a61933;
 	font-size: 28px;
 	font-weight: bold;
 }
 
 
-.view-noticias .view-header .links_uteis_content .link_item .corpo_item {
+body.path-frontpage .view-noticias .view-header .links_uteis_content .link_item .corpo_item {
 	color: #535362;
 	text-align: left;
 	padding-left: 5px;
 }
 
-.view-noticias .view-header .links_uteis_content .link_item .corpo_item p {
+body.path-frontpage .view-noticias .view-header .links_uteis_content .link_item .corpo_item p {
 	margin-top: 19px;
 	text-align: left;
 	padding-left: 5px;
@@ -264,7 +264,7 @@ html {
   Imagem guia médico e odontológico
 */
 
-.view-noticias .view-header .imagem_guia_medico {
+body.path-frontpage .view-noticias .view-header .imagem_guia_medico {
 	background-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/services_icons.png);
 	background-position: 310px 198px;
 	background-size: 310px;
@@ -274,7 +274,7 @@ html {
   Imagem histórico de utilização
 */
 
-.view-noticias .view-header .imagem_seus_gastos {
+body.path-frontpage .view-noticias .view-header .imagem_seus_gastos {
         background-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/services_icons.png);
         background-position: 60px 198px;
         background-size: 310px;
@@ -284,7 +284,7 @@ html {
   Imagem autorização online
 */
 
-.view-noticias .view-header .imagem_autorizacao_internet {
+body.path-frontpage .view-noticias .view-header .imagem_autorizacao_internet {
 	background-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/services_icons.png);
 	background-position: 179px 198px;
 	background-size: 310px;
@@ -292,7 +292,7 @@ html {
 
 /*View title notícias*/
 
-.view-noticias .view-header .title-view{
+body.path-frontpage .view-noticias .view-header .title-view{
 	width: 1129px;
 	margin: 0 auto;
         margin-bottom: 0px;
@@ -303,23 +303,23 @@ html {
 }
 
 
-.view-noticias .view-header .title-view .col-left{
+body.path-frontpage .view-noticias .view-header .title-view .col-left{
 	display:inline-block;
 }
 
-.view-noticias .view-header .title-view .col-left h2{
+body.path-frontpage .view-noticias .view-header .title-view .col-left h2{
 	font-weight:bold;
 	color:#01426a;
 	font-size: 19px;
 }
 
-.view-noticias .view-header .title-view .col-right{
+body.path-frontpage .view-noticias .view-header .title-view .col-right{
 	position:absolute;
 	right:0px;
 	top:18px;
 }
 
-.view-noticias .view-header .title-view .col-right a{
+body.path-frontpage .view-noticias .view-header .title-view .col-right a{
 	text-decoration:none;
 	font-size: 13px;
 	padding: 5px;
@@ -332,63 +332,62 @@ html {
 /*Views Notícias content*/
 
 
-.view-noticias .view-content{
+body.path-frontpage .view-noticias .view-content{
 	width:1129px;
 	margin: 0 auto;
 }
 
-.view-noticias .view-content .views-row{
+body.path-frontpage .view-noticias .view-content .views-row{
 	display:inline-block;
-	width:28%;
+	width:33%;
 	margin-bottom: 90px;
 	vertical-align:top;
 	margin-top:10px;
 }
 
-.view-noticias .view-content .views-field-title a {
+body.path-frontpage .view-noticias .view-content .views-field-title a {
         color: #01426a;
 	text-decoration:none;
 }
 
 /*title noticias*/
-.view-noticias .view-content .views-field-title{
-	width:294px;
+body.path-frontpage .view-noticias .view-content .views-field-title{
+	width:340px;
 	margin-top:10px;
 	margin-bottom:25px;
+	text-align:center;
 }
 
-.view-noticias .view-content .views-field-title:hover{
+body.path-frontpage .view-noticias .view-content .views-field-title:hover{
 	text-decoration: underline;
 	text-decoration-color: #01426a;
 }
 
 /*noticias img*/
 
-.view-noticias .view-content .views-row img{
+body.path-frontpage .view-noticias .view-content .views-row img{
 	padding: 5px;
 	box-shadow: 0 0 3px #EEE;
 	background: #FFF;
 	border: #EEE 1px solid;
 }
 
-.view-noticias .view-content .views-row img:hover{
+body.path-frontpage .view-noticias .view-content .views-row img:hover{
 	background:#f0f0f0;
 }
 
 /*noticias description*/
 
-.view-noticias .views-field-body{
+body.path-frontpage .view-noticias .views-field-body{
 	width:340px;
 }
 
-.view-noticias .views-field-body p{
+body.path-frontpage .view-noticias .views-field-body p{
 	width:340px;
 	color:#666;
 	text-align:justify;
 	font-size: 13px;
 }
-
-
 
 /*
   View footer
@@ -397,7 +396,7 @@ html {
 
 /*footer wrapper first*/
 
-.view-noticias .view-footer .services_wrapper{
+body.path-frontpage .view-noticias .view-footer .services_wrapper{
 	padding: 40px 0 10px;
 	background-color: #007db8;
 	background-image: linear-gradient(to right top,#2ea1ad,#0f5285);
@@ -406,14 +405,14 @@ html {
 
 /*content inside first wrapper*/
 
-.view-noticias .view-footer .services_wrapper .services_content{
+body.path-frontpage .view-noticias .view-footer .services_wrapper .services_content{
 	width: 1129px;
 	margin: 0 auto;
 }
 
 /*title news top*/
 
-.view-noticias .view-footer .news_top .service_title{
+body.path-frontpage .view-noticias .view-footer .news_top .service_title{
 	color: #fff;
 	font-size:19px;
 	font-weight: normal;
@@ -421,14 +420,14 @@ html {
 
 /*marker top*/
 
-.view-noticias .view-footer .service_marker{
+body.path-frontpage .view-noticias .view-footer .service_marker{
 	border-top: #fff 1px solid;
 	margin: 0 0 28px 0;
 }
 
 /*services items*/
 
-.view-noticias .view-footer .service_item{
+body.path-frontpage .view-noticias .view-footer .service_item{
 	display: inline-block;
 	vertical-align: top;
 	width:21%;
@@ -436,7 +435,7 @@ html {
 	transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.view-noticias .view-footer .service_item a {
+body.path-frontpage .view-noticias .view-footer .service_item a {
 	transition: 0.2s;
 	text-decoration: none;
 	transition: 0.2s;
@@ -449,19 +448,19 @@ html {
 	margin: 0 auto;
 }
 
-.view-noticias .view-footer .service_item a:hover{
+body.path-frontpage .view-noticias .view-footer .service_item a:hover{
 	transform: translateY(-5px);
 	box-shadow: 0px 0px 1px 2px #CCC,inset 0px 0px 3px 0px #CCC;
 	transition: 0.5s;
 }
 
-.view-noticias .view-footer .service_item a:hover .service_icon{
+body.path-frontpage .view-noticias .view-footer .service_item a:hover .service_icon{
 	transform: rotate(15deg);
 }
 
 /*icones default*/
 
-.view-noticias .view-footer .service_icon{
+body.path-frontpage .view-noticias .view-footer .service_icon{
 	transition: 0.5s;
 	background-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/services_icons.png);
 	width:58px;
@@ -473,7 +472,7 @@ html {
 
 /*services titles default*/
 
-.view-noticias .view-footer .service_item_title{
+body.path-frontpage .view-noticias .view-footer .service_item_title{
 	font-family: "Open Sans";
 	text-align: center;
 	color: #fff;
@@ -481,56 +480,56 @@ html {
 
 /*icone aderir*/
 
-.view-noticias .view-footer .service_icon_aderir{
+body.path-frontpage .view-noticias .view-footer .service_icon_aderir{
 	background-position-x: -133px;
 	background-position-y: -164px;
 }
 
 /*icone incluir*/
 
-.view-noticias .view-footer .service_icon_incluir{
+body.path-frontpage .view-noticias .view-footer .service_icon_incluir{
 	background-position-x: -28px;
 	background-position-y: -164px;
 }
 
 /*icone solicitar exclusão do plano*/
 
-.view-noticias .view-footer .service_icon_solicitar{
+body.path-frontpage .view-noticias .view-footer .service_icon_solicitar{
 	background-position-x: -227px;
 	background-position-y: -164px;
 }
 
 /*icone consultar débito*/
 
-.view-noticias .view-footer .service_icon_consultar{
+body.path-frontpage .view-noticias .view-footer .service_icon_consultar{
 	background-position-x: -30px;
 	background-position-y: -235px;
 }
 
 /*icone regras de utilização*/
 
-.view-noticias .view-footer .service_icon_quitar{
+body.path-frontpage .view-noticias .view-footer .service_icon_quitar{
 	background-position-x: -325px;
 	background-position-y: -237px;
 }
 
 /*icone parcerias firmadas*/
 
-.view-noticias .view-footer .service_icon_parcerias{
+body.path-frontpage .view-noticias .view-footer .service_icon_parcerias{
 	background-position-x: -227px;
 	background-position-y: -237px;
 }
 
 /*icone solicitar autorização de procedimentos*/
 
-.view-noticias .view-footer .service_icon_2via{
+body.path-frontpage .view-noticias .view-footer .service_icon_2via{
 	background-position-x: -126px;
 	background-position-y: -237px;
 }
 
 /*icone modelos de requerimentos*/
 
-.view-noticias .view-footer .service_icon_modelos{
+body.path-frontpage .view-noticias .view-footer .service_icon_modelos{
 	background-position-x: -182px;
 	background-position-y: -302px;
 }
@@ -541,12 +540,12 @@ html {
 */
 
 
-.view-noticias .view-footer .contact{
+body.path-frontpage .view-noticias .view-footer .contact{
 	background: linear-gradient(0deg,rgba(227,227,227,1) 0%,rgba(227,227,227,1) 3%,rgba(227,227,227,1) 7%,rgba(247,247,249,1) 69%,rgba(247,247,249,1) 100%);
 }
 
 
-.view-noticias .view-footer .contact .contact_content{
+body.path-frontpage .view-noticias .view-footer .contact .contact_content{
 	width: 1129px;
 	margin: 0 auto;
 	padding: 15px;
@@ -554,7 +553,7 @@ html {
 
 /*Contact box default*/
 
-.view-noticias .view-footer .contact .contact_box{
+body.path-frontpage .view-noticias .view-footer .contact .contact_box{
 	display: inline-block;
 	vertical-align: top;
 	width: 29%;
@@ -567,7 +566,7 @@ html {
 }
 
 /*Contact title h2 default*/
-.view-noticias .view-footer .contact .contact_title h2{
+body.path-frontpage .view-noticias .view-footer .contact .contact_title h2{
 	text-decoration: none;
 	font-weight: normal;
 	color: #646473;
@@ -579,12 +578,12 @@ html {
 
 /*Contact text default*/
 
-.view-noticias .view-footer .contact .contact_text{
+body.path-frontpage .view-noticias .view-footer .contact .contact_text{
 	clear: both;
 	padding: 0 15px;
 }
 
-.view-noticias .view-footer .contact .contact_text p{
+body.path-frontpage .view-noticias .view-footer .contact .contact_text p{
 	font-size: 15px;
 	color: #4f4f51;
 	text-align: left;
@@ -592,7 +591,7 @@ html {
 
 /*contact phone*/
 
-.view-noticias .view-footer .contact .contact_icon_phone{
+body.path-frontpage .view-noticias .view-footer .contact .contact_icon_phone{
 	width: 63px;
 	height: 74px;
 	float: left;
@@ -604,7 +603,7 @@ html {
 
 /*contact fale conosco*/
 
-.view-noticias .view-footer .contact .contact_icon_message{
+body.path-frontpage .view-noticias .view-footer .contact .contact_icon_message{
 	width: 63px;
 	height: 74px;
 	float: left;
@@ -614,7 +613,7 @@ html {
 	background-size: 423px;
 }
 
-.view-noticias .view-footer .contact .contact_icon_address{
+body.path-frontpage .view-noticias .view-footer .contact .contact_icon_address{
 	width: 63px;
 	height: 74px;
 	float: left;
