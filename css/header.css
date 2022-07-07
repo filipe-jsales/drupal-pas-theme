@@ -195,8 +195,9 @@ body{
 	background-color:#cfcfcf;
 }
 
+/*li superfish*/
+
 #header-wrapper #block-menurodape li{
-	text-align:left;
 	padding-right: 10px;
 	padding-left: 10px;
 }
@@ -218,11 +219,3 @@ body{
 
 }
 
-/*
-  li superfish
-*/
-
-#header-wrapper ul.sf-hidden li{
-
-/*teste*/	
-}
