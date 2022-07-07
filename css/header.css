@@ -203,6 +203,7 @@ body{
 }
 
 #header-wrapper #block-menurodape ul.menu li a{
+	text-align: left;
 	color:#4e4e4e;
 	text-transform: none;
 	font-size: 13px;

@@ -7,6 +7,7 @@
 body.page-node-type-noticias #container{
 	clear:both;
 	overflow: hidden;
+	border-top: 3px double #cde;
 }
 
 body.page-node-type-noticias .container-wrap{

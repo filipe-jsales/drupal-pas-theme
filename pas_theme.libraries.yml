@@ -3,10 +3,10 @@ global-styling:
   css:
     theme:
       css/header.css: {}
-      css/menu.css: {}
       css/view.css: {}
       css/footer.css: {}
       css/content-type.css: {}
+      css/breadcrumb.css: {}
 global-scripts:
   version: 1.0
   js:
