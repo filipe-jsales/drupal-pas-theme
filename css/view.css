@@ -338,6 +338,8 @@ html {
 	display:inline-block;
 	width:33%;
 	margin-bottom: 90px;
+	vertical-align:top;
+	margin-top:10px;
 }
 
 .view-noticias .view-content .views-field-title a {

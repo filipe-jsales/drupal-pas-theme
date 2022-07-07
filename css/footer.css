@@ -9,47 +9,75 @@ html, body{
 */
 
 #footer-wrapper{
-	width:100%;
+	overflow: hidden;
 	background-color:#23517E;
-}
-
-
-.region-footer{
-	font-size: 16px;
-	text-align:center;
-	padding-bottom:190px;
-	padding-left:250px;
-	/*background-color: #23517E;*/
 	border:none;
-	/*padding: 10px 0px;*/
+	margin-top:0;
+	padding: 10px 0px;
 }
 
-.region-footer ul{
-	float:left
-	display:block;
+#footer-wrapper .region-footer #block-pas-theme-menurodape{
+	margin: 0 auto;
+	max-width: 1129px;
+	margin-top:15px;
 }
 
-.region-footer li{
-	float: left;
-	list-style:none;
+#footer-wrapper .region-footer ul.menu{
+	margin: 3px 0 0 10px;
 }
 
-li.menu-item{
-	height: 25px;
-	width: 180px;
+#footer-wrapper .region-footer .menu > .first{
+	display: none;
 }
 
-.region-footer span{
+/*align list horizontal*/
+#footer-wrapper .region-footer #block-pas-theme-menurodape ul li{
+	min-width: 12%;
+	margin-right: 10px;
+	border-bottom: medium none;
+	/*float: left;*/
+	list-style: none;
+	display:inline-block;
+	vertical-align:top;
+}
+
+#block-pas-theme-menurodape ul li ul{
+	margin: 0 0 0 0;
+}
+
+/*hiding first element of the list*/
+
+#footer-wrapper .region-footer #block-pas-theme-menurodape .menu li:first-of-type{
+	display:none;
+}
+
+/*order list subitems in vertical*/
+
+#footer-wrapper .region-footer #block-pas-theme-menurodape ul.menu li.menu-item li{
+	/*float:none;*/
+	display:block
+}
+
+
+#footer-wrapper .region-footer #block-pas-theme-menurodape ul.menu span{
+	font-size: 0.83em;
+	padding: 0 0 6px;
+	font-weight: 600;
+	display: block;
+	/*font-family: Overlock;*/
 	color: #fff;
-	/*text-transform: uppercase;*/
-	font-weight: bold;
+	letter-spacing: 0.05em;
 }
 
-.region-footer a{
-	text-decoration:none;
+/*contact link style*/
+
+#footer-wrapper .region-footer #block-pas-theme-menurodape ul li a{
+	font-size: 0.9em;
+	font-family: Overlock;
 	color: #fff;
+	letter-spacing: 0.05em;
+	display: block;
+	padding: 3px 13px 3px 15px;
 }
 
-.region-footer a:hover{
-	text-decoration:underline;
-}
+
