@@ -6,7 +6,7 @@ global-styling:
       css/menu.css: {}
       css/view.css: {}
       css/footer.css: {}
-
+      css/content-type.css: {}
 global-scripts:
   version: 1.0
   js:

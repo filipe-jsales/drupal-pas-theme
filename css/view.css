@@ -15,7 +15,10 @@ html {
 	margin-bottom: 0;
 }
 
-/*View Notícias Header*/
+/*View Notícias Header
+  Deve-se adicionar classe CSS "view-noticias"
+  na view
+*/
 
 
 .view-noticias .view-header .banner_central_wrapper{

@@ -48,19 +48,23 @@
     {{ page.header }}
   </header>
 
-  <main role="main">
-
-    <div class="layout-content">
-      {{ page.content }}
+  <div id="container">
+    <div class="container-wrap">
+      {% if page.sidebar_second %}
+        <div class="layout-content content-sidebar-wrap content-sidebar-wrap-70">
+          {{ page.content }}
+        </div>
+     
+        <aside class="layout-sidebar-second" id="sidebar-second" role="complementary">
+          {{ page.sidebar_second }}
+        </aside>
+      {% else %}
+        <div class="layout-content">
+          {{ page.content }}
+        </div>
+      {% endif %}
     </div>
-
-    {% if page.sidebar_second %}
-      <aside class="layout-sidebar-second" role="complementary">
-        {{ page.sidebar_second }}
-      </aside>
-    {% endif %}
-
-  </main>
+  </div>
   
   <footer id="footer-wrapper" role="contentinfo">
     {{ page.footer }}
