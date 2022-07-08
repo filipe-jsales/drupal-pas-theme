@@ -15,6 +15,10 @@ html {
 	margin-bottom: 0;
 }
 
+#container{
+	border-top: 3px double #cde;
+}
+
 /*View Notícias Header
   Deve-se adicionar classe CSS "view-noticias"
   na view
