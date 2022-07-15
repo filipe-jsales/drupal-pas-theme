@@ -71,6 +71,7 @@ body.path-node #sidebar-second{
 
 body.path-node .content-sidebar-wrap .region-content{
 	float:right;
+	width:100%;
 }
 
 
@@ -115,7 +116,10 @@ body.path-node .node__content h2::after{
 	width: 100%;
 }
 
-
+/*content h3*/
+body.path-node .node__content h3{
+	font-size: 14px;
+}
 
 /*preview noticias content*/
 

@@ -23,7 +23,7 @@ html, body{
 }
 
 #footer-wrapper .region-footer ul.menu{
-	margin: 3px 0 0 10px;
+	margin: 3px 0 0 -16px;
 }
 
 #footer-wrapper .region-footer .menu > .first{
