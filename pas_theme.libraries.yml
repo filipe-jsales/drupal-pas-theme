@@ -7,6 +7,7 @@ global-styling:
       css/footer.css: {}
       css/content-type.css: {}
       css/breadcrumb.css: {}
+      css/style.css: {}
 global-scripts:
   version: 1.0
   js:

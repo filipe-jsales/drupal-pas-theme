@@ -3,6 +3,10 @@ body.path-node h1{
 	margin: 0px;
 }
 
+body.path-node ul{
+
+}
+
 /*
   Reset CSS style
 */
@@ -120,9 +124,21 @@ body.path-node .node__content h2::after{
 	width: 100%;
 }
 
+blockquote, q {
+    quotes: none;
+    border: 1px solid rgb(226,220,220);
+    background: rgb(250,247,247) url(https://pas.trt8.jus.br/sites/all/themes/execute_responsive_theme/images/quote.png) no-repeat;
+    padding: 10px 5px 5px 47px;
+    text-shadow: 1px 1px #fff;
+    margin: 5px 0;
+    border-radius: 7px;
+}
+
 /*content h3*/
 body.path-node .node__content h3{
-	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	font-size:14px;
 }
 
 /*preview noticias content*/
@@ -245,7 +261,11 @@ body.path-node .node__content h2::after{
 	width: 100%;
 }
 
-
+/*lists in content field*/
+body.path-node .field--name-body li{
+	margin-bottom: 5px;
+	margin-left: 30px;
+}
 
 /*Sidebar últimas notícias title*/
 

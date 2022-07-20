@@ -53,7 +53,6 @@
 #header-wrapper #search-block-form{
 	width:23%;
 	float:right;
-	margin-top: -12px;	
 	
 }
 
@@ -150,7 +149,7 @@
 #header-wrapper .block-superfish{
 	width:100%;
 	height: 33px;
-	margin-top:45px;
+	margin-top:62px;
 }
 
 #header-wrapper #block-menurodape ul.sf-menu.menu{
