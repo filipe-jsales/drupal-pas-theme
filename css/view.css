@@ -313,22 +313,32 @@ body.path-frontpage .view-noticias .view-header .title-view .col-right a{
 
 /*Here ends view header*/
 
+/*view banner*/
 
 /*Views Notícias content*/
 
-
-body.path-frontpage .view-noticias .view-content{
-	width:1129px;
-	margin: 0 auto;
+body.path-frontpage .view-noticias .view-header  .view-content{
+	
 }
 
-body.path-frontpage .view-noticias .view-content .views-row{
+/*view row banner*/
+body.path-frontpage .view-noticias .view-front-banner .views-row{
 	display:inline-block;
-	width:33%;
+	width:100%;
 	margin-bottom: 90px;
 	vertical-align:top;
 	margin-top:10px;
 }
+
+/*view-row noticias*/
+body.path-frontpage .view-noticias .views-row{
+        display:inline-block;
+        width:28%;
+        margin-bottom: 90px;
+        vertical-align:top;
+        margin-top:10px;
+}
+
 
 body.path-frontpage .view-noticias .view-content .views-field-title a {
         color: #01426a;
