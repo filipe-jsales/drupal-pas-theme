@@ -136,6 +136,17 @@ div#sliding-popup .popup-content #popup-text{
 	margin: 10px 0;
 }
 
-div.popup-content{
-	font-size:30px;
+
+div#sliding-popup .popup-content #popup-text h3, div#sliding-popup .popup-content #popup-text p {
+	font-weight: normal;
+	font-size: 15px;
+	font-family: 'Open Sans',Arial;
+}
+.eu-cookie-compliance-default-button{
+	font-weight:normal;
+}
+
+#sliding-popup a{
+	color:#fff;
+	text-decoration: underline;
 }
