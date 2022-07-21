@@ -34,7 +34,7 @@
 }
 
 /*
-  Menu abas
+  Menu items
 */
 
 #header-wrapper .menu--menu-cabecalho ul.menu li.menu-item a{
@@ -74,13 +74,8 @@
 	margin-left:47px;
 }
 
-/*change search button icon*/
-#header-wrapper #edit-actions{
-	/*display:none;*/
-}
-
+/*search button style*/
 #header-wrapper #edit-submit{
-	/*display:none;*/
 	background: url(https://pas.trt8.jus.br/sites/all/themes/execute_responsive_theme/images/search-icon.png) no-repeat center top;
 	height: 27px;
 	width: 29px;
@@ -92,7 +87,7 @@
 	border: 0;
 }
 
-/*Alguns casos o botão muda o id*/
+/*edit submit different id*/
 #header-wrapper #edit-submit--3{
 	/*display:none;*/
 	background: url(https://pas.trt8.jus.br/sites/all/themes/execute_responsive_theme/images/search-icon.png) no-repeat center top;
@@ -117,10 +112,9 @@
 
 #header-wrapper .region-primary-menu span:hover{
 	background-color: #4e4e4e;
-	/*cursor:pointer;*/
 }
 
-/*Região do menu cabeçalho*/
+/*menu header region*/
 
 #header-wrapper .menu--menu-cabecalho  ul.menu{
 	margin-left: 572px;
@@ -153,11 +147,11 @@
 	width:auto;
 	padding:5px;
 }
-/*Fim menu cabeçalho*/
+/* menu header end*/
 
 
 /*
-  Região Menu superfish
+  Menu superfish Region
 */
 
 #header-wrapper .block-superfish{
@@ -206,7 +200,7 @@
 	background: #ddd none repeat scroll 0 0;
 }
 
-/*li superfish*/
+/*list superfish*/
 
 #header-wrapper #block-menurodape li{
 	padding-right: 10px;

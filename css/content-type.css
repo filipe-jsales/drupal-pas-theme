@@ -112,54 +112,6 @@ body.path-node h2 .node--type-noticias  span.field--name-title{
 	overflow: hidden;
 }
 
-/*content */
-
-body.path-node .node__content{
-	text-align: justify;
-	margin-bottom: 10px;
-}
-
-body.path-node .node__content h2{
-	font-family: 'Open Sans';
-	font-size: 0.8em;
-	font-weight: bold;
-	color: #303c49;
-	display: inline-block;
-	margin: 16px 0 5px 0;
-	position: relative;
-	width: 100%;
-	overflow: hidden;
-}
-
-body.path-node .node__content h2::after{
-	background: #aac none repeat scroll 0 0;
-	content: "";
-	height: 1px;
-	margin: 9px 0 0 5px;
-	position: absolute;
-	width: 100%;
-}
-
-/*quote style*/
-
-blockquote p {
-    quotes: none;
-    border: 1px solid rgb(226,220,220);
-    background: rgb(250,247,247) url(https://pas.trt8.jus.br/sites/all/themes/execute_responsive_theme/images/quote.png) no-repeat;
-    padding: 10px 5px 20px 47px;
-    text-shadow: 1px 1px #fff;
-    margin-bottom: 1px;
-    border-radius: 7px;
-    padding-right:25px;
-}
-
-/*content h3*/
-body.path-node .node__content h3{
-	font-weight: bold;
-	margin-bottom: 5px;
-	font-size:14px;
-}
-
 /*preview noticias content*/
 
 body.path-node .container-wrap .view-noticias .views-row{
@@ -254,7 +206,7 @@ body.path-node .content-sidebar-wrap .region-content{
 
 
 
-/*content */
+/*node content */
 
 body.path-node .node__content{
 	text-align: justify;
@@ -286,6 +238,52 @@ body.path-node .node__content h2::after{
 body.path-node .field--name-body li{
 	margin-bottom: 5px;
 	margin-left: 30px;
+}
+
+body.path-node .node__content{
+	text-align: justify;
+	margin-bottom: 10px;
+}
+
+body.path-node .node__content h2{
+	font-family: 'Open Sans';
+	font-size: 0.8em;
+	font-weight: bold;
+	color: #303c49;
+	display: inline-block;
+	margin: 16px 0 5px 0;
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+
+body.path-node .node__content h2::after{
+	background: #aac none repeat scroll 0 0;
+	content: "";
+	height: 1px;
+	margin: 9px 0 0 5px;
+	position: absolute;
+	width: 100%;
+}
+
+/*quote style*/
+
+blockquote p {
+    quotes: none;
+    border: 1px solid rgb(226,220,220);
+    background: rgb(250,247,247) url(https://pas.trt8.jus.br/sites/all/themes/execute_responsive_theme/images/quote.png) no-repeat;
+    padding: 10px 5px 20px 47px;
+    text-shadow: 1px 1px #fff;
+    margin-bottom: 1px;
+    border-radius: 7px;
+    padding-right:25px;
+}
+
+/*content h3*/
+body.path-node .node__content h3{
+	font-weight: bold;
+	margin-bottom: 5px;
+	font-size:14px;
 }
 
 /*Sidebar últimas notícias title*/
@@ -324,6 +322,7 @@ body.path-node .container-wrap .view-noticias .view-content{
 	padding: 0px 10px;
 }
 
+/*noticias preview img style*/
 body.path-node .view-noticias .view-content a img{
 	padding: 5px;
 	box-shadow: 0 0 3px #EEE;
@@ -367,7 +366,7 @@ body.path-node .region-sidebar-second ul.menu li{
 	padding: 0;
 }
 
-/*active actual*/
+/*active atual*/
 body.path-node .region-sidebar-second .menu li a.is-active{
 	color: #555;
 	border: 1px solid #eaeff2;
@@ -378,7 +377,7 @@ body.path-node .region-sidebar-second .menu li a.is-active{
 	background: #f6f6f6;
 }
 
-/*override hover style*/
+/* hover style*/
 body.path-node .region-sidebar-second .menu li a.is-active:hover{
         border-left: 3px solid #d7d8da;
         background: #f6f6f6;
@@ -457,10 +456,3 @@ body.path-node .node--type-noticias  h1 span.field--name-title{
 	overflow: hidden;
 }
 
-
-/*
-  Path search page
-*/
-
-body.path-search{
-}

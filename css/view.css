@@ -1,23 +1,4 @@
 
-/*Reset CSS*/
-a{
-	color: #178AD2;
-	text-decoration: none;
-}
-
-p {
-	margin: 0;
-	padding: 0;
-}
-
-html {
-	font-family: 'Open Sans';
-	margin-bottom: 0;
-}
-
-#container{
-	border-top: 3px double #cde;
-}
 
 /*View Notícias Header
   Deve-se adicionar classe CSS "view-noticias"
@@ -76,7 +57,7 @@ body.path-frontpage .view-noticias .view-header .servicos_content .servico {
         display:inline-block;
         width: 24%;
         font-size: 0.7em;
-        margin-top: -12px;
+        margin-top: 15px;
 }
 
 body.path-frontpage .view-noticias .view-header .servicos_content a {
@@ -105,6 +86,7 @@ body.path-frontpage .view-noticias .view-header .servicos_content .servico h2 {
 	font-size: 17px;
 	letter-spacing: 1.3px;
 	font-weight:normal;
+	color: #fff;
 }
 
 body.path-frontpage .view-noticias .view-header .servicos_content .title_services h2 {
@@ -230,7 +212,6 @@ body.path-frontpage .view-noticias .view-header .links_uteis_content .link_item 
 
 body.path-frontpage .view-noticias .view-header .links_uteis_content .link_item .topo_item {
 	height: 82px;
-	margin-top:-26px;
 }
 
 /*Imagem itens default*/

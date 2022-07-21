@@ -1,3 +1,14 @@
+
+/*
+  Reset CSS style
+*/
+
+/* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}*/
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, 
 blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em,
 img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, 
@@ -15,6 +26,28 @@ time, mark, audio, video {
         font-family: inherit;*/
 	vertical-align: baseline;
 }
+
+
+a{
+        color: #178AD2;
+        text-decoration: none;
+}
+
+p {
+        margin: 0;
+        padding: 0;
+}
+
+html {
+        font-family: 'Open Sans';
+        margin-bottom: 0;
+	max-width:100%;
+}
+
+#container{
+        border-top: 3px double #cde;
+}
+
 
 table{
 	background: #ececec;
@@ -35,5 +68,4 @@ td{
 	text-align: left;
 	border: 1px solid #DBDBDB;
 }
-
 

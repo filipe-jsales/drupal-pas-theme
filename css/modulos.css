@@ -1,6 +1,12 @@
 
+/*
+  Reset CSS
+*/
 
 
+body.path-search p{
+	font-size: 12px;
+}
 
 /*
   Search modulo
@@ -12,8 +18,90 @@ body.path-search #container{
 	overflow: hidden;
 }
 
-body.path-search .container-wrap{
+body.path-search #container .container-wrap{
 	max-width: 1129px;
 	margin: 0 auto;
-	margin-bottom:181px;
+}
+
+body.path-search #container{
+	color: #666;
+	font-size:14px;
+}
+
+body.path-search #container h1, body.path-search #container h2, body.path-search #container h3{
+    color: #222;
+    font-family: "Arial","Helvetica",sans-serif;
+    font-weight: normal;
+    margin-bottom: 6px;
+    line-height: 125%;
+}
+
+
+/*search form*/
+body.path-search #container input {
+	border: 1px solid #ccc;
+	color:black;
+}
+
+body.path-search #container .search-form{
+	margin-bottom: 1em;
+}
+
+body.path-search #container #search-form label{
+	display: block;
+}
+body.path-search #container #search-form input .form-search{
+	color: black;
+	border: 1px solid #ccc;
+}
+
+
+body.path-search #container button, body.path-search #container  input[type="submit"],body.path-search #container input[type="reset"],
+ body.path-search #container input[type="button"]{
+	box-shadow: inset 0 1px 0 0 white;
+	color: #777;
+	text-shadow: 0 1px 0 white;
+	position: relative;
+	font-weight: bold;
+	padding: 5px 1em 6px 1em;
+	border-radius: 4px;
+	background-image: -webkit-linear-gradient(top,#FFFFFF 0%,#E3E3E3 100%);
+	color: #666;
+	font-weight:normal;
+	margin-left:3px;
+}
+
+/*body.path-search input[type="submit"]{
+}*/
+
+/*
+  Search Results
+*/
+
+body.path-search #container .item-list ol{
+	margin-left: 30px;
+	margin-buttom: 24px;
+}
+
+body.path-search #container .item-list ol.search-results{
+	padding-left: 0;
+}
+
+body.path-search #container .item-list .search-results{
+	list-style:none;
+}
+
+body.path-search #container .item-list .search-results li{
+	border-bottom: 1px solid #d3d7d9;
+	padding-bottom: 0.4285em;
+	margin-bottom: 0.5em;
+}
+
+body.path-search #container .item-list .search-results li:last-child{
+	border-bottom:none;
+	margin-bottom: 1em;
+}
+
+body.path-search #container  .item-list .search-results li p{
+	text-align: justify;
 }
