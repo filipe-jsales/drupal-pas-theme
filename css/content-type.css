@@ -1,12 +1,4 @@
 
-body.path-node h1{
-	margin: 0px;
-}
-
-body.path-node ul{
-
-}
-
 /*
   Reset CSS style
 */
@@ -26,6 +18,30 @@ body.path-node li{
         font-size: 14px;
         font-family: 'Open Sans';
         color: #333333;
+}
+
+body.path-node h1{
+	margin: 0px;
+}
+
+body.path-node ul{
+
+}
+
+body.path-node table tr td{
+	font-size:14px;
+	font-family: 'Open Sans';
+	color: #333333;
+	line-height:1.5;
+	letter-spacing: -0.7px;
+	word-spacing: 3.3px;
+}
+
+body.path-node td{
+	min-width: 100px;
+}
+
+body.path-node .node__content td > p{
 }
 
 /*
@@ -124,14 +140,17 @@ body.path-node .node__content h2::after{
 	width: 100%;
 }
 
-blockquote, q {
+/*quote style*/
+
+blockquote p {
     quotes: none;
     border: 1px solid rgb(226,220,220);
     background: rgb(250,247,247) url(https://pas.trt8.jus.br/sites/all/themes/execute_responsive_theme/images/quote.png) no-repeat;
-    padding: 10px 5px 5px 47px;
+    padding: 10px 5px 20px 47px;
     text-shadow: 1px 1px #fff;
-    margin: 5px 0;
+    margin-bottom: 1px;
     border-radius: 7px;
+    padding-right:25px;
 }
 
 /*content h3*/
@@ -162,6 +181,8 @@ body.path-node .view-noticias .view-content .views-field-title a{
 body.path-node .container-wrap .view-noticias .view-content{
 	padding: 0px 10px;
 }
+
+/*noticias img*/
 
 body.path-node .view-noticias .view-content a img{
 	padding: 5px;
