@@ -105,3 +105,37 @@ body.path-search #container .item-list .search-results li:last-child{
 body.path-search #container  .item-list .search-results li p{
 	text-align: justify;
 }
+
+body.path-search #container .region{
+	min-height:273px;
+}
+
+
+/*
+  EU Cookie Compliance Module
+*/
+
+div#sliding-popup .popup-content{
+	max-width: 1129px;
+}
+
+@media screen and (max-width: 1185px) {
+	div#sliding-popup .popup-content{
+		max-width:80%;
+	}
+}
+
+@media screen and (min-width: 586px){
+	div#sliding-popup .popup-content #popup-text{
+		max-width:82%;
+	}
+
+}
+
+div#sliding-popup .popup-content #popup-text{
+	margin: 10px 0;
+}
+
+div.popup-content{
+	font-size:30px;
+}
