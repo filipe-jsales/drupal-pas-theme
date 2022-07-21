@@ -1,0 +1,19 @@
+
+
+
+
+/*
+  Search modulo
+*/
+
+
+body.path-search #container{
+	clear: both;
+	overflow: hidden;
+}
+
+body.path-search .container-wrap{
+	max-width: 1129px;
+	margin: 0 auto;
+	margin-bottom:181px;
+}

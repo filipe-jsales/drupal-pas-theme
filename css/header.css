@@ -92,6 +92,20 @@
 	border: 0;
 }
 
+/*Alguns casos o botão muda o id*/
+#header-wrapper #edit-submit--3{
+	/*display:none;*/
+	background: url(https://pas.trt8.jus.br/sites/all/themes/execute_responsive_theme/images/search-icon.png) no-repeat center top;
+	height: 27px;
+	width: 29px;
+	padding: 0;
+	cursor: pointer;
+	text-indent: -9999px;
+	overflow: hidden;
+	box-shadow: none;
+	border: 0;
+}
+
 #header-wrapper .region-primary-menu{
 	margin-left:300px;
 }

@@ -1,4 +1,4 @@
-body.path-node .breadcrumb{
+/*body.path-node .breadcrumb{
 	margin: 10px 0px;
 	margin-bottom: 10px;
 	border-bottom: #eee 1px solid;
@@ -12,5 +12,25 @@ body.path-node .breadcrumb li{
 body.path-node .breadcrumb li a{
 	color:#178AD2;
 }
+*/
 
+/*
+  Breadcrumb comuns
+*/
 
+.breadcrumb{
+        margin: 10px 0px;
+        margin-bottom: 10px;
+        border-bottom: #eee 1px solid;
+
+}
+
+.breadcrumb li{
+	color:#666;
+        font-size:13px;
+}
+
+.breadcrumb li a{
+	color:#178AD2;
+
+}
