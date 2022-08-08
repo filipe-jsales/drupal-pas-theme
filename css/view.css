@@ -5,13 +5,14 @@
   na view
 */
 
+/*
+  Banner frontpage e Acessos exclusivos
+*/
 
-body.path-frontpage .view-noticias .view-header .banner_central_wrapper{
-}
 
 /*banner central background*/
 
-body.path-frontpage .view-noticias .view-header .banner_central_wrapper .banner_central{
+.view-front-banner .banner_central_wrapper .banner_central{
         width: 100%;
         margin: 0 auto;
         height: 450px;
@@ -19,15 +20,16 @@ body.path-frontpage .view-noticias .view-header .banner_central_wrapper .banner_
         background-size: cover;
 }
 
-/*serviços content*/
 
-body.path-frontpage .view-noticias .view-header .banner_central .content{
+/*Banner central content*/
+
+.view-front-banner .banner_central .content{
         text-align: center;
         padding-top: 6%;
         height: 236px;
 }
 
-body.path-frontpage .view-noticias .view-header .servicos_content {
+.view-front-banner .servicos_content {
         width: 100%;
         height: 200px;
         margin: 0 auto;
@@ -38,21 +40,21 @@ body.path-frontpage .view-noticias .view-header .servicos_content {
         margin-top:-96px;
 }
 
-body.path-frontpage .view-noticias .view-header .servicos_content a{
+.view-front-banner .servicos_content a{
         text-decoration: none;
 }
 
-body.path-frontpage .view-noticias .view-header .servicos_content .alinhamento {
+.view-front-banner .servicos_content .alinhamento {
     width: 1129px;
     margin: 0 auto;
 }
 
-body.path-frontpage .view-noticias .view-header .servicos_content .title_services {
+.view-front-banner .servicos_content .title_services {
     text-align: center;
     padding-top: 1px;
 }
 
-body.path-frontpage .view-noticias .view-header .servicos_content .servico {
+.view-front-banner .servicos_content .servico {
         text-align: center;
         display:inline-block;
         width: 24%;
@@ -60,28 +62,28 @@ body.path-frontpage .view-noticias .view-header .servicos_content .servico {
         margin-top: 15px;
 }
 
-body.path-frontpage .view-noticias .view-header .servicos_content a {
+.view-front-banner .servicos_content a {
 	color: #fff;
 }
 
 
-body.path-frontpage .view-noticias .view-header .banner_central .content h1 {
+.view-front-banner .banner_central .content h1 {
         font-size: 48px;
         color: #3f3f48;
         text-shadow: 5px 7px 15px #666;
         margin: 0px 0px 6px 0px;
 }
 
-body.path-frontpage .view-noticias .view-header .banner_central .content span {
+.view-front-banner .banner_central .content span {
     	font-size: 19px;
 	color: #3f3f48;
 }
 
-body.path-frontpage .view-noticias .view-header .servicos_content h2 {
+.view-front-banner .servicos_content h2 {
 	margin-top: -4px !important;
 }
 
-body.path-frontpage .view-noticias .view-header .servicos_content .servico h2 {
+.view-front-banner .servicos_content .servico h2 {
 	margin-top: 4px !important;
 	font-size: 17px;
 	letter-spacing: 1.3px;
@@ -89,65 +91,66 @@ body.path-frontpage .view-noticias .view-header .servicos_content .servico h2 {
 	color: #fff;
 }
 
-body.path-frontpage .view-noticias .view-header .servicos_content .title_services h2 {
+.view-front-banner .servicos_content .title_services h2 {
     	font-size: 19pt !important;
 	color: #fff !important;
 	margin-top:10px;
 	font-weight:normal;
 }
 
-body.path-frontpage .view-noticias .view-header .banner_central .content a {
+.view-front-banner .banner_central .content a {
 	color: #178AD2;
 	text-decoration: none;
 }
 
-body.path-frontpage .view-noticias .view-header .banner_central .content a:hover{
+.view-front-banner .banner_central .content a:hover{
         color: #449BD3;
 }
 
-body.path-frontpage .view-noticias .view-header .servicos_content .servico{
+.view-front-banner .servicos_content .servico{
         transition: transform 0.3s;
 
 }
 
 
-body.path-frontpage .view-noticias .view-header .servicos_content .servico:hover{
+.view-front-banner .servicos_content .servico:hover{
         transform: translateY(-5px);
 }
 
+
 /*
-  Icones acesso rápido default
+  Banner central Icones acesso rápido default
 */
 
-body.path-frontpage .view-noticias .view-header .servicos_content .servico .icon_acesso_rapido {
+.view-front-banner .servicos_content .servico .icon_acesso_rapido {
     	width: 132px;
 	height: 115px;
 	margin: 0 auto;
 }
 
 /*
-  Beneficiários img
+  Banner central Acesos Exclusivos Beneficiários
 */
 
-body.path-frontpage .view-noticias .view-header .servicos_content .servico .acesso_beneficiario {
+.view-front-banner .servicos_content .servico .acesso_beneficiario {
     	background-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/services_icons.png);
 	background-position: -8px -32px;
 	background-size: 513px;
 }
 
 /*
-  Credenciados img
+  Banner central Acesos Exclusivos Credenciados
 */
-body.path-frontpage .view-noticias .view-header .servicos_content .servico .acesso_credenciados {
+.view-front-banner .servicos_content .servico .acesso_credenciados {
 	background-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/services_icons.png);
 	background-position: -154px -36px;
 	background-size: 534px;
 }
 
 /*
-  Peritos img
+    Banner central Acesos Exclusivos Peritos
 */
-body.path-frontpage .view-noticias .view-header .servicos_content .servico .acesso_peritos {
+.view-front-banner .servicos_content .servico .acesso_peritos {
 	background-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/services_icons.png);
 	background-position: -390px -36px;
 	background-size: 535px;
@@ -155,14 +158,26 @@ body.path-frontpage .view-noticias .view-header .servicos_content .servico .aces
 
 
 /*
-  Gestores img
+   Banner central Acesos Exclusivos Gestores
 */
-body.path-frontpage .view-noticias .view-header .servicos_content .servico .acesso_gestores {
+.view-front-banner .servicos_content .servico .acesso_gestores {
 	background-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/services_icons.png);
 	background-position: -281px -36px;
 	background-size: 535px;
 	width: 120px;
 }
+
+
+
+
+
+/*----------------------FIM BANNER CENTRAL E ACESSOS EXCLUSIVOS---------------------*/
+
+
+/*-----------------------INICIO VIEW HEADER-----------------------------------------*/
+
+/*---------------------LINKS UTEIS WRAPPER------------------------------------------*/
+
 
 /*
   Links Úteis
@@ -170,7 +185,7 @@ body.path-frontpage .view-noticias .view-header .servicos_content .servico .aces
 
 
 /*Links úteis div*/
-body.path-frontpage .view-noticias .view-header .links_uteis_content {
+ .view-noticias .view-header .links_uteis_content {
 	width: 1129px;
 	margin: 30px auto;
 	height: 175px;
@@ -178,14 +193,10 @@ body.path-frontpage .view-noticias .view-header .links_uteis_content {
 
 /*Links úteis grid content*/
 
-body.path-frontpage .view-noticias .view-header .links_uteis_content .link_item {
+ .view-noticias .view-header .links_uteis_content .link_item {
         width: 336px;
-        height: 134px;
         padding-left: 7px;
         display:inline-block;
-        border-left: 10px solid;
-        border-left-style: solid;
-        border-left-width: 10px;
         border-radius: 4px;
         border-style: solid;
         border-width: 0 7px;
@@ -193,52 +204,51 @@ body.path-frontpage .view-noticias .view-header .links_uteis_content .link_item 
         box-shadow: 0px 0px 5px 0px rgba(206,206,206,0.94);
         padding-top: 6px;
         padding-bottom: 16px;
-        padding-right: 0px;
         transition: transform 0.3s,box-shadow 0.3s;
         margin-right: 12px;
 }
 
-body.path-frontpage .view-noticias .view-header .links_uteis_content .link_item{
+ .view-noticias .view-header .links_uteis_content .link_item{
 	transform:0.3s;
 }
 
-body.path-frontpage .view-noticias .view-header .links_uteis_content .link_item:hover {
+ .view-noticias .view-header .links_uteis_content .link_item:hover {
 	transform: translateY(-5px);
 }
 
-body.path-frontpage .view-noticias .view-header .links_uteis_content .link_item a {
+ .view-noticias .view-header .links_uteis_content .link_item a {
 	color: #fff;
 }
 
-body.path-frontpage .view-noticias .view-header .links_uteis_content .link_item .topo_item {
+ .view-noticias .view-header .links_uteis_content .link_item .topo_item {
 	height: 82px;
 }
 
-/*Imagem itens default*/
+/*Imagem itens links uteis default*/
 
-body.path-frontpage .view-noticias .view-header .links_uteis_content .link_item .imagem_item {
+ .view-noticias .view-header .links_uteis_content .link_item .imagem_item {
 	float: left;
 	width: 60px;
 	height: 60px;
 	margin: 12px 26px 0 10px;
 }
 
-/*Corpo itens default*/
+/*links uteis itens default*/
 
-body.path-frontpage .view-noticias .view-header .links_uteis_content .link_item .topo_item h2 {
+ .view-noticias .view-header .links_uteis_content .link_item .topo_item h2 {
     	color: #a61933;
 	font-size: 28px;
 	font-weight: bold;
 }
 
 
-body.path-frontpage .view-noticias .view-header .links_uteis_content .link_item .corpo_item {
+ .view-noticias .view-header .links_uteis_content .link_item .corpo_item {
 	color: #535362;
 	text-align: left;
 	padding-left: 5px;
 }
 
-body.path-frontpage .view-noticias .view-header .links_uteis_content .link_item .corpo_item p {
+ .view-noticias .view-header .links_uteis_content .link_item .corpo_item p {
 	margin-top: 19px;
 	text-align: left;
 	padding-left: 5px;
@@ -249,7 +259,7 @@ body.path-frontpage .view-noticias .view-header .links_uteis_content .link_item 
   Imagem guia médico e odontológico
 */
 
-body.path-frontpage .view-noticias .view-header .imagem_guia_medico {
+ .view-noticias .view-header .imagem_guia_medico {
 	background-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/services_icons.png);
 	background-position: 310px 198px;
 	background-size: 310px;
@@ -259,7 +269,7 @@ body.path-frontpage .view-noticias .view-header .imagem_guia_medico {
   Imagem histórico de utilização
 */
 
-body.path-frontpage .view-noticias .view-header .imagem_seus_gastos {
+ .view-noticias .view-header .imagem_seus_gastos {
         background-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/services_icons.png);
         background-position: 60px 198px;
         background-size: 310px;
@@ -269,15 +279,19 @@ body.path-frontpage .view-noticias .view-header .imagem_seus_gastos {
   Imagem autorização online
 */
 
-body.path-frontpage .view-noticias .view-header .imagem_autorizacao_internet {
+ .view-noticias .view-header .imagem_autorizacao_internet {
 	background-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/services_icons.png);
 	background-position: 179px 198px;
 	background-size: 310px;
 }
 
-/*View title notícias*/
 
-body.path-frontpage .view-noticias .view-header .title-view{
+/*--------------------------------------FIM LINKS UTEIS WRAPPER-----------------------------------*/
+
+
+/*View title notícia*/
+
+ .view-noticias .view-header .title-view{
 	width: 1129px;
 	margin: 0 auto;
         margin-bottom: 0px;
@@ -288,50 +302,37 @@ body.path-frontpage .view-noticias .view-header .title-view{
 }
 
 
-body.path-frontpage .view-noticias .view-header .title-view .col-left{
+ .view-noticias .view-header .title-view .col-left{
 	display:inline-block;
 }
 
-body.path-frontpage .view-noticias .view-header .title-view .col-left h2{
+ .view-noticias .view-header .title-view .col-left h2{
 	font-weight:bold;
 	color:#01426a;
 	font-size: 19px;
 }
 
-body.path-frontpage .view-noticias .view-header .title-view .col-right{
+ .view-noticias .view-header .title-view .col-right{
 	position:absolute;
 	right:0px;
 	top:18px;
 }
 
-body.path-frontpage .view-noticias .view-header .title-view .col-right a{
+ .view-noticias .view-header .title-view .col-right a{
 	text-decoration:none;
 	font-size: 13px;
 	padding: 5px;
 }
+/*Fim view title notícia*/
 
 
-/*Here ends view header*/
+/*---------------------------------FIM VIEW HEADER----------------------------------------------------------*/
 
-/*view banner*/
 
-/*Views Notícias content*/
-
-body.path-frontpage .view-noticias .view-header  .view-content{
-	
-}
-
-/*view row banner*/
-body.path-frontpage .view-noticias .view-front-banner .views-row{
-	display:inline-block;
-	width:100%;
-	margin-bottom: 90px;
-	vertical-align:top;
-	margin-top:10px;
-}
+/*---------------------------------INICIO VIEW NOTICIAS----------------------------------------------------*/
 
 /*view-row noticias*/
-body.path-frontpage .view-noticias .views-row{
+ .view-noticias .views-row{
         display:inline-block;
         width:28%;
         margin-bottom: 90px;
@@ -340,58 +341,58 @@ body.path-frontpage .view-noticias .views-row{
 }
 
 
-body.path-frontpage .view-noticias .view-content .views-field-title a {
+ .view-noticias .view-content .views-field-title a {
         color: #01426a;
 	text-decoration:none;
 }
 
 /*title noticias*/
-body.path-frontpage .view-noticias .view-content .views-field-title{
+ .view-noticias .view-content .views-field-title{
 	width:340px;
 	margin-top:10px;
 	margin-bottom:25px;
 	text-align:center;
 }
 
-body.path-frontpage .view-noticias .view-content .views-field-title:hover{
+ .view-noticias .view-content .views-field-title:hover{
 	text-decoration: underline;
 	text-decoration-color: #01426a;
 }
 
 /*noticias img*/
 
-body.path-frontpage .view-noticias .view-content .views-row img{
+ .view-noticias .view-content .views-row img{
 	padding: 5px;
 	box-shadow: 0 0 3px #EEE;
 	background: #FFF;
 	border: #EEE 1px solid;
 }
 
-body.path-frontpage .view-noticias .view-content .views-row img:hover{
+ .view-noticias .view-content .views-row img:hover{
 	background:#f0f0f0;
 }
 
 /*noticias description*/
 
-body.path-frontpage .view-noticias .views-field-body{
+ .view-noticias .views-field-body{
 	width:340px;
 }
 
-body.path-frontpage .view-noticias .views-field-body p{
+ .view-noticias .views-field-body p{
 	width:340px;
 	color:#666;
 	text-align:justify;
 	font-size: 13px;
 }
 
-/*
-  View footer
-  .view-footer
-*/
+/*--------------------FIM VIEW NOTICIAS--------------------------------------------------*/
+
+
+/*------------------------------INICIO VIEW FOOTER SERVICES---------------------------------------*/
 
 /*footer wrapper first*/
 
-body.path-frontpage .view-noticias .view-footer .services_wrapper{
+ .view-noticias .view-footer .services_wrapper{
 	padding: 40px 0 10px;
 	background-color: #007db8;
 	background-image: linear-gradient(to right top,#2ea1ad,#0f5285);
@@ -400,14 +401,14 @@ body.path-frontpage .view-noticias .view-footer .services_wrapper{
 
 /*content inside first wrapper*/
 
-body.path-frontpage .view-noticias .view-footer .services_wrapper .services_content{
+ .view-noticias .view-footer .services_wrapper .services_content{
 	width: 1129px;
 	margin: 0 auto;
 }
 
 /*title news top*/
 
-body.path-frontpage .view-noticias .view-footer .news_top .service_title{
+ .view-noticias .view-footer .news_top .service_title{
 	color: #fff;
 	font-size:19px;
 	font-weight: normal;
@@ -415,14 +416,14 @@ body.path-frontpage .view-noticias .view-footer .news_top .service_title{
 
 /*marker top*/
 
-body.path-frontpage .view-noticias .view-footer .service_marker{
+ .view-noticias .view-footer .service_marker{
 	border-top: #fff 1px solid;
 	margin: 0 0 28px 0;
 }
 
 /*services items*/
 
-body.path-frontpage .view-noticias .view-footer .service_item{
+ .view-noticias .view-footer .service_item{
 	display: inline-block;
 	vertical-align: top;
 	width:21%;
@@ -430,7 +431,7 @@ body.path-frontpage .view-noticias .view-footer .service_item{
 	transition: transform 0.3s, box-shadow 0.3s;
 }
 
-body.path-frontpage .view-noticias .view-footer .service_item a {
+ .view-noticias .view-footer .service_item a {
 	transition: 0.2s;
 	text-decoration: none;
 	transition: 0.2s;
@@ -443,19 +444,19 @@ body.path-frontpage .view-noticias .view-footer .service_item a {
 	margin: 0 auto;
 }
 
-body.path-frontpage .view-noticias .view-footer .service_item a:hover{
+ .view-noticias .view-footer .service_item a:hover{
 	transform: translateY(-5px);
 	box-shadow: 0px 0px 1px 2px #CCC,inset 0px 0px 3px 0px #CCC;
 	transition: 0.5s;
 }
 
-body.path-frontpage .view-noticias .view-footer .service_item a:hover .service_icon{
+ .view-noticias .view-footer .service_item a:hover .service_icon{
 	transform: rotate(15deg);
 }
 
 /*icones default*/
 
-body.path-frontpage .view-noticias .view-footer .service_icon{
+ .view-noticias .view-footer .service_icon{
 	transition: 0.5s;
 	background-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/services_icons.png);
 	width:58px;
@@ -467,7 +468,7 @@ body.path-frontpage .view-noticias .view-footer .service_icon{
 
 /*services titles default*/
 
-body.path-frontpage .view-noticias .view-footer .service_item_title{
+ .view-noticias .view-footer .service_item_title{
 	font-family: "Open Sans";
 	text-align: center;
 	color: #fff;
@@ -475,72 +476,77 @@ body.path-frontpage .view-noticias .view-footer .service_item_title{
 
 /*icone aderir*/
 
-body.path-frontpage .view-noticias .view-footer .service_icon_aderir{
+ .view-noticias .view-footer .service_icon_aderir{
 	background-position-x: -133px;
 	background-position-y: -164px;
 }
 
 /*icone incluir*/
 
-body.path-frontpage .view-noticias .view-footer .service_icon_incluir{
+ .view-noticias .view-footer .service_icon_incluir{
 	background-position-x: -28px;
 	background-position-y: -164px;
 }
 
 /*icone solicitar exclusão do plano*/
 
-body.path-frontpage .view-noticias .view-footer .service_icon_solicitar{
+ .view-noticias .view-footer .service_icon_solicitar{
 	background-position-x: -227px;
 	background-position-y: -164px;
 }
 
 /*icone consultar débito*/
 
-body.path-frontpage .view-noticias .view-footer .service_icon_consultar{
+ .view-noticias .view-footer .service_icon_consultar{
 	background-position-x: -30px;
 	background-position-y: -235px;
 }
 
 /*icone regras de utilização*/
 
-body.path-frontpage .view-noticias .view-footer .service_icon_quitar{
+ .view-noticias .view-footer .service_icon_quitar{
 	background-position-x: -325px;
 	background-position-y: -237px;
 }
 
 /*icone parcerias firmadas*/
 
-body.path-frontpage .view-noticias .view-footer .service_icon_parcerias{
+ .view-noticias .view-footer .service_icon_parcerias{
 	background-position-x: -227px;
 	background-position-y: -237px;
 }
 
 /*icone solicitar autorização de procedimentos*/
 
-body.path-frontpage .view-noticias .view-footer .service_icon_2via{
+ .view-noticias .view-footer .service_icon_2via{
 	background-position-x: -126px;
 	background-position-y: -237px;
 }
 
 /*icone modelos de requerimentos*/
 
-body.path-frontpage .view-noticias .view-footer .service_icon_modelos{
+ .view-noticias .view-footer .service_icon_modelos{
 	background-position-x: -182px;
 	background-position-y: -302px;
 }
 
+/*----------------------FIM VIEW FOOTER NOTICIAS------------------------------------------*/
+
+
+
+/*----------------------------INICIO VIEW FOOTER CONTACT----------------------------------*/
 
 /*
   Contact footer
 */
 
 
-body.path-frontpage .view-noticias .view-footer .contact{
+ .view-noticias .view-footer .contact{
 	background: linear-gradient(0deg,rgba(227,227,227,1) 0%,rgba(227,227,227,1) 3%,rgba(227,227,227,1) 7%,rgba(247,247,249,1) 69%,rgba(247,247,249,1) 100%);
 }
 
 
-body.path-frontpage .view-noticias .view-footer .contact .contact_content{
+ .view-noticias .view-footer .contact .contact_content{
 	width: 1129px;
 	margin: 0 auto;
 	padding: 15px;
@@ -548,7 +554,7 @@ body.path-frontpage .view-noticias .view-footer .contact .contact_content{
 
 /*Contact box default*/
 
-body.path-frontpage .view-noticias .view-footer .contact .contact_box{
+ .view-noticias .view-footer .contact .contact_box{
 	display: inline-block;
 	vertical-align: top;
 	width: 29%;
@@ -561,7 +567,7 @@ body.path-frontpage .view-noticias .view-footer .contact .contact_box{
 }
 
 /*Contact title h2 default*/
-body.path-frontpage .view-noticias .view-footer .contact .contact_title h2{
+ .view-noticias .view-footer .contact .contact_title h2{
 	text-decoration: none;
 	font-weight: normal;
 	color: #646473;
@@ -573,12 +579,12 @@ body.path-frontpage .view-noticias .view-footer .contact .contact_title h2{
 
 /*Contact text default*/
 
-body.path-frontpage .view-noticias .view-footer .contact .contact_text{
+ .view-noticias .view-footer .contact .contact_text{
 	clear: both;
 	padding: 0 15px;
 }
 
-body.path-frontpage .view-noticias .view-footer .contact .contact_text p{
+ .view-noticias .view-footer .contact .contact_text p{
 	font-size: 15px;
 	color: #4f4f51;
 	text-align: left;
@@ -586,7 +592,7 @@ body.path-frontpage .view-noticias .view-footer .contact .contact_text p{
 
 /*contact phone*/
 
-body.path-frontpage .view-noticias .view-footer .contact .contact_icon_phone{
+ .view-noticias .view-footer .contact .contact_icon_phone{
 	width: 63px;
 	height: 74px;
 	float: left;
@@ -598,7 +604,7 @@ body.path-frontpage .view-noticias .view-footer .contact .contact_icon_phone{
 
 /*contact fale conosco*/
 
-body.path-frontpage .view-noticias .view-footer .contact .contact_icon_message{
+ .view-noticias .view-footer .contact .contact_icon_message{
 	width: 63px;
 	height: 74px;
 	float: left;
@@ -608,7 +614,7 @@ body.path-frontpage .view-noticias .view-footer .contact .contact_icon_message{
 	background-size: 423px;
 }
 
-body.path-frontpage .view-noticias .view-footer .contact .contact_icon_address{
+ .view-noticias .view-footer .contact .contact_icon_address{
 	width: 63px;
 	height: 74px;
 	float: left;
@@ -616,4 +622,99 @@ body.path-frontpage .view-noticias .view-footer .contact .contact_icon_address{
 	background-position-x: -281px;
 	background-position-y: 66px;
 	background-size: 423px;
+}
+
+
+/*---------------------------------------FIM VIEW FOOTER CONTACT----------------------------------------------*/
+
+
+/*VIEW NOTICIAS SIDEBARD SECOND*/
+
+
+
+/*rightbar content*/
+body.path-node #sidebar-second{
+        float: right;
+        width:24%;
+}
+
+body.path-node .content-sidebar-wrap .region-content{
+        float:right;
+        width:100%;
+}
+
+
+body.path-node h2 .node--type-noticias  span.field--name-title{
+        font-family: 'Open Sans';
+        font-size: 1.2em !important;
+        text-align: center;
+        font-weight: normal;
+        color: #303c49;
+        display: inline-block;
+        margin: 16px 0 20px 0;
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+}
+
+/*preview noticias content*/
+
+body.path-node .container-wrap .view-noticias-block .views-row{
+        display: block;
+}
+
+body.path-node .container-wrap .view-noticias-block .view-content .views-row{
+        padding-bottom:40px;
+        text-align: center;
+}
+
+/*link noticias preview title*/
+body.path-node .view-noticias-block .view-content .views-field-title a{
+        margin-left:14px;
+        color: #01426a;
+}
+
+
+body.path-node .container-wrap view-noticias-block .view-content{
+        padding: 0px 10px;
+}
+
+/*preview noticias content*/
+
+body.path-node .container-wrap .view-noticias-block .views-row{
+        display: block;
+}
+
+body.path-node .container-wrap .view-noticias-block .view-content .views-row{
+        padding-bottom:40px;
+        text-align: center;
+}
+
+/*link noticias preview title*/
+body.path-node .view-noticias-block .view-content .views-field-title a{
+        margin-left:14px;
+        color: #01426a;
+}
+
+
+body.path-node .container-wrap .view-noticias-block .view-content{
+        padding: 0px 10px;
+}
+
+/*noticias img*/
+
+body.path-node .view-noticias-block .view-content a img{
+        padding: 5px;
+        box-shadow: 0 0 3px #EEE;
+        background: #FFF;
+        border: #EEE 1px solid;
+}
+
+body.path-node .view-noticias-block .view-content a img:hover {
+        background: #F0F0F0;
+}
+
+body.path-node .view-noticias-block .view-content img{
+        width: 262px;
+        height: 175px;
 }
