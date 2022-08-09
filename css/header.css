@@ -12,7 +12,7 @@
 
 
 /*
-  Center header wrapper
+  Header container wrapper
 */
 .layout-container #header-wrapper{
 	margin: 0 auto;
@@ -21,7 +21,7 @@
 }
 
 /*
-  align left logo pas theme
+  Logo pas theme
 */
 #header-wrapper #block-pas-theme-branding{
 	margin: 10px 10px 0px;	
@@ -29,13 +29,40 @@
 	width:30%;
 }
 
-#header-wrapper #block-pas-theme-menucabecalho-2{
+/*Menu acesso rápido*/
+
+#header-wrapper .menu--menu-cabecalho{
 	margin-top:-94px;
 }
 
-/*
-  Menu items
-*/
+#header-wrapper .menu--menu-cabecalho  ul.menu{
+	margin-left: 572px;
+}
+
+#header-wrapper ul.menu li{
+        display:inline-block;
+        font-size: 12pt;
+}
+
+#header-wrapper ul.menu li.menu-item a{
+        color:#757584;
+        text-decoration: none;
+}
+
+#header-wrapper ul.menu li.menu-item a:hover{
+        color:#757584;
+        text-decoration: underline;
+}
+
+#header-wrapper ul.menu li.menu-item span{
+        color:#01426a;
+        font-size:13pt;
+}
+
+#header-wrapper ul.menu li.menu-item{
+        width:auto;
+        padding:5px;
+}
 
 #header-wrapper .menu--menu-cabecalho ul.menu li.menu-item a{
 	font-size:10pt;
@@ -76,7 +103,7 @@
 
 /*search button style*/
 #header-wrapper #edit-submit{
-	background: url(https://pas.trt8.jus.br/sites/all/themes/execute_responsive_theme/images/search-icon.png) no-repeat center top;
+	background: url(/themes/pas_theme/images/search-icon.png) no-repeat center top;
 	height: 27px;
 	width: 29px;
 	padding: 0;
@@ -90,7 +117,7 @@
 /*edit submit different id*/
 #header-wrapper #edit-submit--3{
 	/*display:none;*/
-	background: url(https://pas.trt8.jus.br/sites/all/themes/execute_responsive_theme/images/search-icon.png) no-repeat center top;
+	background: url(/themes/pas_theme/images/search-icon.png) no-repeat center top;
 	height: 27px;
 	width: 29px;
 	padding: 0;
@@ -101,54 +128,6 @@
 	border: 0;
 }
 
-#header-wrapper .region-primary-menu{
-	margin-left:300px;
-}
-
-#header-wrapper .region-primary-menu span{
-	background-color: #4e4e4e;
-	color: #fff;
-}
-
-#header-wrapper .region-primary-menu span:hover{
-	background-color: #4e4e4e;
-}
-
-/*menu header region*/
-
-#header-wrapper .menu--menu-cabecalho  ul.menu{
-	margin-left: 572px;
-}
-
-#header-wrapper .menu--menu-cabecalho  ul.menu li.menu-item a, span{
-}
-
-#header-wrapper ul.menu li{
-	display:inline-block;
-	font-size: 12pt;
-}
-
-#header-wrapper ul.menu li.menu-item a{
-	color:#757584;
-	text-decoration: none;
-}
-
-#header-wrapper ul.menu li.menu-item a:hover{
-	color:#757584;
-	text-decoration: underline;
-}
-
-#header-wrapper ul.menu li.menu-item span{
-	color:#01426a;
-	font-size:13pt;
-}
-
-#header-wrapper ul.menu li.menu-item{
-	width:auto;
-	padding:5px;
-}
-/* menu header end*/
-
 
 /*
   Menu superfish Region
@@ -156,8 +135,8 @@
 
 #header-wrapper .block-superfish{
 	width:100%;
-	height: 33px;
-	margin-top:62px;
+	height: 23px;
+	margin-top:70px;
 }
 
 #header-wrapper #block-menurodape ul.sf-menu.menu{
@@ -167,7 +146,7 @@
 	font-size: 15px;
 	margin-left:53px;
 	text-decoration: none;
-	height: 33px;
+	height: 26px;
 	margin-right: 192px;
 }
 
@@ -205,6 +184,7 @@
 #header-wrapper #block-menurodape li{
 	padding-right: 10px;
 	padding-left: 10px;
+	margin-top:-8px;
 }
 
 #header-wrapper #block-menurodape ul.menu li a{

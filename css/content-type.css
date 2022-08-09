@@ -14,18 +14,8 @@ body.path-node p{
 	text-indent: 30px;
 }
 
-body.path-node li{
-        font-size: 14px;
-        font-family: 'Open Sans';
-        color: #333333;
-}
-
 body.path-node h1{
 	margin: 0px;
-}
-
-body.path-node ul{
-
 }
 
 body.path-node table tr td{
@@ -41,8 +31,6 @@ body.path-node td{
 	min-width: 100px;
 }
 
-body.path-node .node__content td > p{
-}
 
 /*
   CSS Comum para todos os tipos de conteúdo
@@ -82,7 +70,6 @@ body.path-node .container-wrap{
 
 /*post content */
 body.path-node .content-sidebar-wrap{
-	/*display:inline-block;*/
 	float: left;
 	width:72%;
 }
@@ -93,11 +80,11 @@ body.path-node .content-sidebar-wrap .region-content{
 }
 
 
-body.path-node h2 .node--type-noticias  span.field--name-title{
+body.path-node .node--type-noticias  h1 span.field--name-title{
 	font-family: 'Open Sans';
-	font-size: 1.2em !important;
+	font-size: 2em !important;
 	text-align: center;
-	font-weight: normal;
+	font-weight: bold;
 	color: #303c49;
 	display: inline-block;
 	margin: 16px 0 20px 0;
@@ -122,41 +109,9 @@ body.path-node .text-formatted a img:hover{
 }
 
 
-/*
-  Content page style
-*/
-
-
-/*main content*/
-body.path-node #container{
-	clear:both;
-	overflow: hidden;
-	border-top: 3px double #cde;
-}
-
-body.path-node .container-wrap{
-	max-width: 1129px !important;
-	margin: 0 auto !important;
-}
-
-/*post content */
-body.path-node .content-sidebar-wrap{
-	/*display:inline-block;*/
-	float: left;
-	width:72%;
-}
-
-/*rightbar content*/
-body.path-node #sidebar-second{
-	float: right;
-	width:26%;
-}
-
 body.path-node .content-sidebar-wrap .region-content{
 	float:right;
 }
-
-
 
 
 /*node content */
@@ -191,6 +146,12 @@ body.path-node .node__content h2::after{
 body.path-node .field--name-body li{
 	margin-bottom: 5px;
 	margin-left: 30px;
+	font-size: 14px;
+	font-family: 'Open Sans';
+	color: #333333;
+	line-height: 1.5;
+	letter-spacing: -0.7px;
+	word-spacing: 3.3px;
 }
 
 body.path-node .node__content{
@@ -224,7 +185,7 @@ body.path-node .node__content h2::after{
 blockquote p {
     quotes: none;
     border: 1px solid rgb(226,220,220);
-    background: rgb(250,247,247) url(https://pas.trt8.jus.br/sites/all/themes/execute_responsive_theme/images/quote.png) no-repeat;
+    background: rgb(250,247,247) url(/themes/pas_theme/images/quote.png) no-repeat;
     padding: 10px 5px 20px 47px;
     text-shadow: 1px 1px #fff;
     margin-bottom: 1px;
@@ -253,44 +214,6 @@ body.path-node #sidebar-second .block-views h2{
 	text-align:center;
 }
 
-/*preview noticias content*/
-
-body.path-node .container-wrap .view-noticias .views-row{
-	display: block;
-}
-
-body.path-node .container-wrap .view-noticias .view-content .views-row{
-	padding-bottom:40px;
-	text-align: center;
-}
-
-/*link noticias preview title*/
-body.path-node .view-noticias .view-content .views-field-title a{
-	margin-left:14px;
-	color: #01426a;
-}
-
-
-body.path-node .container-wrap .view-noticias .view-content{
-	padding: 0px 10px;
-}
-
-/*noticias preview img style*/
-body.path-node .view-noticias .view-content a img{
-	padding: 5px;
-	box-shadow: 0 0 3px #EEE;
-	background: #FFF;
-	border: #EEE 1px solid;
-}
-
-body.path-node .view-noticias .view-content a img:hover {
-	background: #F0F0F0;
-}
-
-body.path-node .view-noticias .view-content img{
-	width: 262px;
-	height: 175px;
-}
 
 /*Links menu pai*/
 
@@ -317,6 +240,7 @@ body.path-node .region-sidebar-second .menu{
 
 body.path-node .region-sidebar-second ul.menu li{
 	padding: 0;
+	font-size:14px;
 }
 
 /*active atual*/
@@ -398,9 +322,9 @@ body.path-node .content-sidebar-wrap-70 .region-content .node--type-noticias h1{
 
 body.path-node .node--type-noticias  h1 span.field--name-title{
 	font-family: 'Open Sans';
-	font-size: 1.2em !important;
+	font-size: 2em !important;
 	text-align: center;
-	font-weight: normal;
+	font-weight: bold;
 	color: #303c49;
 	display: inline-block;
 	margin: 16px 0 20px 0;

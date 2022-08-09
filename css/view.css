@@ -16,7 +16,7 @@
         width: 100%;
         margin: 0 auto;
         height: 450px;
-        background-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/banner_topo_v2.jpg);
+        background-image: url(/themes/pas_theme/images/banner_topo_v2.jpg);
         background-size: cover;
 }
 
@@ -133,7 +133,7 @@
 */
 
 .view-front-banner .servicos_content .servico .acesso_beneficiario {
-    	background-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/services_icons.png);
+    	background-image: url(/themes/pas_theme/images/services_icons.png);
 	background-position: -8px -32px;
 	background-size: 513px;
 }
@@ -142,7 +142,7 @@
   Banner central Acesos Exclusivos Credenciados
 */
 .view-front-banner .servicos_content .servico .acesso_credenciados {
-	background-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/services_icons.png);
+	background-image: url(/themes/pas_theme/images/services_icons.png);
 	background-position: -154px -36px;
 	background-size: 534px;
 }
@@ -151,7 +151,7 @@
     Banner central Acesos Exclusivos Peritos
 */
 .view-front-banner .servicos_content .servico .acesso_peritos {
-	background-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/services_icons.png);
+	background-image: url(/themes/pas_theme/images/services_icons.png);
 	background-position: -390px -36px;
 	background-size: 535px;
 }
@@ -161,13 +161,11 @@
    Banner central Acesos Exclusivos Gestores
 */
 .view-front-banner .servicos_content .servico .acesso_gestores {
-	background-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/services_icons.png);
+	background-image: url(/themes/pas_theme/images/services_icons.png);
 	background-position: -281px -36px;
 	background-size: 535px;
 	width: 120px;
 }
-
-
 
 
 
@@ -200,7 +198,7 @@
         border-radius: 4px;
         border-style: solid;
         border-width: 0 7px;
-        border-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/borderv2.png) 0 0 0 7 fill stretch;
+        border-image: url(/themes/pas_theme/images/borderv2.png) 0 0 0 7 fill stretch;
         box-shadow: 0px 0px 5px 0px rgba(206,206,206,0.94);
         padding-top: 6px;
         padding-bottom: 16px;
@@ -260,7 +258,7 @@
 */
 
  .view-noticias .view-header .imagem_guia_medico {
-	background-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/services_icons.png);
+	background-image: url(/themes/pas_theme/images/services_icons.png);
 	background-position: 310px 198px;
 	background-size: 310px;
 }
@@ -270,7 +268,7 @@
 */
 
  .view-noticias .view-header .imagem_seus_gastos {
-        background-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/services_icons.png);
+        background-image: url(/themes/pas_theme/images/services_icons.png);
         background-position: 60px 198px;
         background-size: 310px;
 }
@@ -280,7 +278,7 @@
 */
 
  .view-noticias .view-header .imagem_autorizacao_internet {
-	background-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/services_icons.png);
+	background-image: url(/themes/pas_theme/images/services_icons.png);
 	background-position: 179px 198px;
 	background-size: 310px;
 }
@@ -334,7 +332,7 @@
 /*view-row noticias*/
  .view-noticias .views-row{
         display:inline-block;
-        width:28%;
+        width:33%;
         margin-bottom: 90px;
         vertical-align:top;
         margin-top:10px;
@@ -383,6 +381,11 @@
 	color:#666;
 	text-align:justify;
 	font-size: 13px;
+}
+
+.view-noticias .view-content{
+	width:1129px;
+	margin: 0 auto;
 }
 
 /*--------------------FIM VIEW NOTICIAS--------------------------------------------------*/
@@ -458,7 +461,7 @@
 
  .view-noticias .view-footer .service_icon{
 	transition: 0.5s;
-	background-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/services_icons.png);
+	background-image: url(/themes/pas_theme/images/services_icons.png);
 	width:58px;
 	height:58px;
 	border-radius:14px;
@@ -596,7 +599,7 @@
 	width: 63px;
 	height: 74px;
 	float: left;
-	background-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/services_icons.png);
+	background-image: url(/themes/pas_theme/images/services_icons.png);
 	background-position-x: -66px;
 	background-position-y: 66px;
 	background-size: 423px;
@@ -608,7 +611,7 @@
 	width: 63px;
 	height: 74px;
 	float: left;
-	background-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/services_icons.png);
+	background-image: url(/themes/pas_theme/images/services_icons.png);
 	background-position-x: -173px;
 	background-position-y: 67px;
 	background-size: 423px;
@@ -618,7 +621,7 @@
 	width: 63px;
 	height: 74px;
 	float: left;
-	background-image: url(https://pas.trt8.jus.br/sites/all/themes/trt8_pas/images/services_icons.png);
+	background-image: url(/themes/pas_theme/images/services_icons.png);
 	background-position-x: -281px;
 	background-position-y: 66px;
 	background-size: 423px;
@@ -628,9 +631,9 @@
 /*---------------------------------------FIM VIEW FOOTER CONTACT----------------------------------------------*/
 
 
-/*VIEW NOTICIAS SIDEBARD SECOND*/
+/*---------------------------------------VIEW NOTICIAS SIDEBARD SECOND---------------------------------------*/
 
-
+/*Block view in sidebar second region*/
 
 /*rightbar content*/
 body.path-node #sidebar-second{
@@ -679,27 +682,6 @@ body.path-node .container-wrap view-noticias-block .view-content{
         padding: 0px 10px;
 }
 
-/*preview noticias content*/
-
-body.path-node .container-wrap .view-noticias-block .views-row{
-        display: block;
-}
-
-body.path-node .container-wrap .view-noticias-block .view-content .views-row{
-        padding-bottom:40px;
-        text-align: center;
-}
-
-/*link noticias preview title*/
-body.path-node .view-noticias-block .view-content .views-field-title a{
-        margin-left:14px;
-        color: #01426a;
-}
-
-
-body.path-node .container-wrap .view-noticias-block .view-content{
-        padding: 0px 10px;
-}
 
 /*noticias img*/
 
