@@ -60,3 +60,39 @@ td{
 	border: 1px solid #DBDBDB;
 }
 
+
+
+/*
+  Drupal Tabs Style
+*/
+
+.tabs a.is-active{
+	background-color: inherit;
+}
+
+body.path-node .tabs{
+	border:none;
+	margin: 0 0 5px 0;
+}
+
+body.path-node ul.primary{
+	border: none;
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+	height: auto;
+	line-height: normal;
+	list-style: none;
+	margin: 5px;
+	padding: 0 0 0 1em;
+	white-space: nowrap;
+}
+
+body.path-node .tabs ul.tabs li a {
+	border-radius: 4px;
+	font-family: Overlock;
+	font-size: 1em;
+	padding: 3px 14px;
+	border: 1px dashed #bbbaf5;
+	color: rgb(60,73,114);
+}

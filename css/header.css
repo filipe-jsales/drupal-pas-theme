@@ -203,3 +203,12 @@
 	background: #e0e0e0 none repeat scroll 0 0;
 }
 
+/*border effect*/
+#header-wrapper #block-menurodape ul.menu li > ul li{
+	border-color: #dddddd;
+	border-style: solid;
+	border-width: 0px 0px 0px 4px;
+	box-shadow: 0px 0px 0px rgba(0,0,0,0.176);
+	padding: 0;
+}
+
