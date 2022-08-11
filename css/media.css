@@ -1,3 +1,10 @@
 /*
   Responsive CSS
 */
+
+@media only screen and (max-width:640px){
+	#header-wrapper #block-pas-theme-branding{
+		width:97%;
+		text-align: center;
+	}
+}

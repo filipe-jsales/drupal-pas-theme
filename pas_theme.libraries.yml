@@ -9,6 +9,7 @@ global-styling:
       css/breadcrumb.css: {}
       css/style.css: {}
       css/modulos.css: {}
+      css/media.css: {}
 global-scripts:
   version: 1.0
   js:
