@@ -7,4 +7,56 @@
 		width:97%;
 		text-align: center;
 	}
+	#header-wrapper .region-header{
+		height: 132px;
+	}
+	#header-wrapper #search-block-form{
+		margin-left: 100px;
+		width:0;
+		float:none;
+		margin-top:0;
+		width:100%
+	}
+}
+
+@media only screen and (max-width:1024px) {
+	body{
+		/*background-color:blue;*/
+	}
+	.view-front-banner .servicos_content .alinhamento{
+		width:930px;
+	}
+	.view-noticias .view-header .links_uteis_content .link_item{
+		width:100%;
+	}
+	.view-noticias .views-row{
+		display:block;
+	}
+	.view-noticias .view-header{
+		height:442px;
+	}
+	.view-noticias .view-header .links_uteis_content{
+		width:100%;
+	}
+	
+
+}
+
+
+@media only screen and (max-width:880px) {
+	body{
+		background-color:red;
+	}
+	.view-front-banner .banner_central .content h1{
+		font-size:36px;
+	}
+	#header-wrapper .menu--menu-cabecalho ul.menu{
+		display:none;
+	}
+	
+
+
+
+
+
 }

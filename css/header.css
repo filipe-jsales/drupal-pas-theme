@@ -27,16 +27,26 @@
 	margin: 10px 10px 0px;	
 	opacity: 0.85;
 	width:30%;
+	display: inline-block;
+	vertical-align: top;
 }
 
 /*Menu acesso rápido*/
 
 #header-wrapper .menu--menu-cabecalho{
-	margin-top:-94px;
+	/*margin-top:-94px;*/
+	width: 577px;
+	display: inline-block;
+	position: absolute;
+	right: 0;
+}
+
+#header-wrapper .region-header{
+	position:relative;
 }
 
 #header-wrapper .menu--menu-cabecalho  ul.menu{
-	margin-left: 572px;
+	/*margin-left: 572px;*/
 }
 
 #header-wrapper ul.menu li{
@@ -78,16 +88,19 @@
   Config form search in header
 */
 #header-wrapper #search-block-form{
-	width:23%;
+	/*width:23%;*/
 	float:right;
-	
+	margin-top: -6%;
 }
 
 /*
   form search style
 */
 #header-wrapper #block-pas-theme-search{
-	width:100%;
+	/*width:71%;
+	height:68px;
+	position:absolute;
+*/
 }
 
 
@@ -151,7 +164,6 @@
 #header-wrapper .block-superfish{
 	width:100%;
 	height: 23px;
-	margin-top:70px;
 }
 
 #header-wrapper #block-menurodape ul.sf-menu.menu{
@@ -159,10 +171,11 @@
 	text-transform: uppercase;
 	color: #4e4e4e;
 	font-size: 15px;
-	margin-left:53px;
+	/*margin-left:53px;*/
+	margin: 0 auto;
 	text-decoration: none;
 	height: 26px;
-	margin-right: 192px;
+	/*margin-right: 192px;*/
 }
 
 #header-wrapper ul.sf-menu a{
