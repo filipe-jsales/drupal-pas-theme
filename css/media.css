@@ -26,19 +26,47 @@
 	.view-front-banner .servicos_content .alinhamento{
 		width:930px;
 	}
+
+	/*Links Úteis - View Notícias*/
+
 	.view-noticias .view-header .links_uteis_content .link_item{
 		width:100%;
+		margin-bottom:13px;
 	}
 	.view-noticias .views-row{
 		display:block;
 	}
 	.view-noticias .view-header{
-		height:442px;
+		height:530px;
 	}
 	.view-noticias .view-header .links_uteis_content{
-		width:100%;
+		width: 589px;	
+		height:460px;
+	}
+	.view-noticias .view-header .links_uteis_content{
+		margin: 15px auto;
+	}
+ 	/*Noticias title*/
+	.view-noticias .view-header .title-view{
+		height:45px;
+		width: inherit;
+	}
+	/*left title*/
+	.view-noticias .view-header .title-view .col-left{
+		margin-left: 20px;
 	}
 	
+	/*Notícias recentes - View Notícias*/
+	
+	.view-noticias .view-content{
+		width:inherit;
+	}
+	.view-noticias .views-row{
+		width:335px;
+		margin-bottom: 25px;
+		margin: 10px auto;
+	}
+
 
 }
 
