@@ -45,7 +45,7 @@
 }
 
 .view-front-banner .servicos_content .alinhamento {
-    width: 1129px;
+    max-width: 1129px;
     margin: 0 auto;
 }
 
@@ -192,7 +192,7 @@
 
 /*Links úteis div*/
  .view-noticias .view-header .links_uteis_content {
-	width: 1129px;
+	max-width: 1129px;
 	margin: 30px auto;
 	height: 175px;
 }
@@ -298,7 +298,7 @@
 /*View title notícia*/
 
  .view-noticias .view-header .title-view{
-	width: 1129px;
+	max-width: 1129px;
 	margin: 0 auto;
         margin-bottom: 0px;
 	height: 60px;
@@ -392,7 +392,7 @@
 }
 
 .view-noticias .view-content{
-	width:1129px;
+	max-width:1129px;
 	margin: 0 auto;
 }
 
@@ -413,7 +413,7 @@
 /*content inside first wrapper*/
 
  .view-noticias .view-footer .services_wrapper .services_content{
-	width: 1129px;
+	max-width: 1129px;
 	margin: 0 auto;
 }
 
@@ -437,7 +437,7 @@
  .view-noticias .view-footer .service_item{
 	display: inline-block;
 	vertical-align: top;
-	width:21%;
+	width:24%;
 	padding: 0px 14px 32px 20px;
 	transition: transform 0.3s, box-shadow 0.3s;
 }
@@ -558,7 +558,7 @@
 
 
  .view-noticias .view-footer .contact .contact_content{
-	width: 1129px;
+	max-width: 1129px;
 	margin: 0 auto;
 	padding: 15px;
 }
@@ -569,9 +569,9 @@
 	display: inline-block;
 	vertical-align: top;
 	width: 29%;
-	padding: 18px 14px 43px 13px;
+	padding: 20px 14px 0px 13px;
 	background: #fff;
-	height: 151px;
+	min-height: 224px;
 	margin: 50px 0 50px 15px;
 	box-shadow: 0px 0px 5px 0px rgba(242, 239, 249, 0.94);
 	border-radius: 4px;

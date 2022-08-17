@@ -67,11 +67,18 @@
 		margin: 10px auto;
 	}
 
+	.view-noticias .view-footer .contact .contact_content{
+		
+	}
+
+	.view-noticias .view-footer .contact .contact_box{
+		
+	}
 
 }
 
 
-@media only screen and (max-width:880px) {
+@media only screen and (max-width:900px) {
 	body{
 		background-color:red;
 	}
@@ -82,7 +89,7 @@
 		display:none;
 	}
 	
-
+	
 
 
 
