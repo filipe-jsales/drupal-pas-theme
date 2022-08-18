@@ -200,7 +200,7 @@
 /*Links úteis grid content*/
 
  .view-noticias .view-header .links_uteis_content .link_item {
-        width: 336px;
+        width: 31%;
         padding-left: 7px;
         display:inline-block;
         border-radius: 4px;
@@ -243,7 +243,7 @@
 
  .view-noticias .view-header .links_uteis_content .link_item .topo_item h2 {
     	color: #a61933;
-	font-size: 28px;
+	font-size: 27px;
 	font-weight: bold;
 }
 

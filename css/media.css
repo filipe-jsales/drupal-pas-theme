@@ -7,14 +7,19 @@
 		/*background-color:blue;*/
 	}
 
-	.view-front-banner .servicos_content .alinhamento{
+	/*Header*/
+	#header-wrapper #block-pas-theme-branding{
+		margin: 10px 0px 0px;
 	}
-
 	/*Links Úteis - View Notícias*/
+
+	.view-noticias .view-header .links_uteis_wreapper{
+		height:500px;
+	}
 
 	.view-noticias .view-header .links_uteis_content .link_item{
 		width:100%;
-		margin-bottom:13px;
+		margin-bottom:22px;
 	}
 	.view-noticias .views-row{
 		display:block;
@@ -23,11 +28,10 @@
 		height:530px;
 	}
 	.view-noticias .view-header .links_uteis_content{
-		width: 589px;	
-		height:460px;
+		max-width: 589px;	
 	}
 	.view-noticias .view-header .links_uteis_content{
-		margin: 15px auto;
+		margin: 45px auto;
 	}
  	/*Noticias title*/
 	.view-noticias .view-header .title-view{
@@ -43,6 +47,7 @@
 	
 	.view-noticias .view-content{
 		width:inherit;
+		margin-top:40px;
 	}
 	.view-noticias .views-row{
 		width:335px;
@@ -114,8 +119,17 @@
 		position: revert;
 	}	
 	
-
 	/*Cabeçalho view */
+	.view-front-banner .banner_central .content h1{
+		font-size:32px;
+	}
+
+	.view-front-banner .banner_central span a{
+		font-weight: bold;
+		font-size: 16px;
+		color: #0D5582;
+	}
+
 	.view-front-banner .banner_central_wrapper{
 		height:600px;
 	}
@@ -157,6 +171,49 @@
 	#header-wrapper #search-block-form{
 		/*float:none;
 		margin-left:100px;*/
+	}
+	
+	/*Banner view front page*/
+	.view-front-banner .banner_central .content h1{
+		color: #1c1c1e;
+		font-size: 28px;
+	}	
+	.view-noticias .view-content{
+		margin-top:70px;	
+	}
+
+	/*links úteis*/
+	.view-noticias .view-header .links_uteis_wreapper{
+		height: 540px;
+	}
+	.view-noticias .view-header .links_uteis_content .link_item{
+		width: 92%;
+		margin-left: 10px;
+	}
+	
+	/*Serviços view footer*/
+
+	.view-noticias .view-footer .news_top .service_title{
+		text-align:center;
+	}
+	.view-noticias .view-footer .service_item{
+		width:49%;
+	}
+
+	/*Footer*/
+
+	#footer-wrapper .region-footer #block-pas-theme-menurodape ul li{
+		display:block;
+	}
+	#footer-wrapper .region-footer ul.menu{
+		margin-bottom: 20px;
+	}
+	#footer-wrapper .region-footer #block-pas-theme-menurodape ul.menu span{
+		margin-bottom: 7px;
+		font-size: 0.9em;
+	}
+	#footer-wrapper .region-footer #block-pas-theme-menurodape ul li a{
+		font-size: 0.9em;
 	}
 
 
