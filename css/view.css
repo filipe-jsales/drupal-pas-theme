@@ -605,7 +605,7 @@
 
  .view-noticias .view-footer .contact .contact_icon_phone{
 	width: 63px;
-	height: 74px;
+	height: 64px;
 	float: left;
 	background-image: url(/themes/pas_theme/images/services_icons.png);
 	background-position-x: -66px;
@@ -617,7 +617,7 @@
 
  .view-noticias .view-footer .contact .contact_icon_message{
 	width: 63px;
-	height: 74px;
+	height: 64px;
 	float: left;
 	background-image: url(/themes/pas_theme/images/services_icons.png);
 	background-position-x: -173px;
@@ -627,7 +627,7 @@
 
  .view-noticias .view-footer .contact .contact_icon_address{
 	width: 63px;
-	height: 74px;
+	height: 64px;
 	float: left;
 	background-image: url(/themes/pas_theme/images/services_icons.png);
 	background-position-x: -281px;
@@ -707,4 +707,9 @@ body.path-node .view-noticias-block .view-content a img:hover {
 body.path-node .view-noticias-block .view-content img{
         width: 262px;
         height: 175px;
+}
+
+/*teste*/
+.view-noticias .view-footer .contact .contact_box:hover{
+	
 }

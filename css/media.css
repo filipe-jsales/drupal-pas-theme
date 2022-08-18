@@ -8,7 +8,6 @@
 	}
 
 	.view-front-banner .servicos_content .alinhamento{
-		width:930px;
 	}
 
 	/*Links Úteis - View Notícias*/
@@ -78,12 +77,24 @@
 	#header-wrapper ul#superfish-menu-rodape li#menu-rodape-menu-link-content402bea4d-7113-4bfb-a725-4b00ae898f4d a{
 		font-size:15px;
 	}
+
+	
+
+
+
+
+	/*contatos*/
+	.view-noticias .view-footer .contact .contact_box {
+		width: 92%;
+		min-height: 180px;
+		margin: 20px 0 20px 20px;
+	}
 }
 
 
 @media only screen and (max-width:860px) {
         body{
-                background-color:green;
+                /*background-color:green;*/
         }
 	#header-wrapper #block-pas-theme-branding{
 		width:100%;
@@ -96,7 +107,36 @@
 	}
 	#header-wrapper #search-block-form{
 		margin-top: 0px;
+		width:275px;
+		margin: 0 auto;
+		padding: 0 0 0 10px;
+		float:none;
+		position: revert;
 	}	
+	
+
+	/*Cabeçalho view */
+	.view-front-banner .banner_central_wrapper{
+		height:600px;
+	}
+
+	.view-front-banner .servicos_content .servico{
+		width:49%;
+		margin-bottom: 15px;
+	}
+	.view-front-banner .banner_central_wrapper .servicos_wrapper{
+		height:365px;
+	}	
+	.view-front-banner .banner_central_wrapper{
+		height:600px;
+	}
+	.view-front-banner .servicos_content{
+		height:365px;
+		opacity: 1;
+		background: #136a9f;		
+	}
+
+
 	/*borda*/
 	.path-frontpage #container{
 		border:none;
@@ -108,15 +148,15 @@
 
 @media only screen and (max-width:640px){
 	#header-wrapper #block-pas-theme-branding{
-		width:97%;
-		text-align: center;
+		/*width:97%;
+		text-align: center;*/
 	}
 	#header-wrapper .region-header{
 		height: 132px;
 	}
 	#header-wrapper #search-block-form{
-		float:none;
-		margin-left:100px;
+		/*float:none;
+		margin-left:100px;*/
 	}
 
 

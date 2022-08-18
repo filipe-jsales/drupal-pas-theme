@@ -88,9 +88,9 @@
   Config form search in header
 */
 #header-wrapper #search-block-form{
-	/*width:23%;*/
-	float:right;
-	margin-top: -6%;
+	position: absolute;
+	right: 0;
+	top: 40px;
 }
 
 /*
