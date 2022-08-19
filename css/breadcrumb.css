@@ -19,3 +19,20 @@
 	color:#178AD2;
 
 }
+
+.path-noticias .breadcrumb{
+        margin: 10px auto;
+        margin-bottom: 10px;
+        border-bottom: #eee 1px solid;
+	max-width: 1129px;
+}
+
+.path-noticias .breadcrumb li{
+        color:#666;
+        font-size:13px;
+}
+
+.path-noticias .breadcrumb li a{
+        color:#178AD2;
+
+}

@@ -83,17 +83,29 @@
 		font-size:15px;
 	}
 
-	
-
-
-
-
 	/*contatos*/
 	.view-noticias .view-footer .contact .contact_box {
 		width: 92%;
 		min-height: 180px;
 		margin: 20px 0 20px 20px;
 	}
+
+ /*Footer*/
+
+        #footer-wrapper .region-footer #block-pas-theme-menurodape ul li{
+                display:block;
+        }
+        #footer-wrapper .region-footer ul.menu{
+                margin-bottom: 20px;
+        }
+        #footer-wrapper .region-footer #block-pas-theme-menurodape ul.menu span{
+                margin-bottom: 7px;
+                font-size: 0.9em;
+        }
+        #footer-wrapper .region-footer #block-pas-theme-menurodape ul li a{
+                font-size: 0.9em;
+        }
+
 }
 
 
@@ -191,6 +203,12 @@
 		margin-left: 10px;
 	}
 	
+	/*Notícias*/
+
+	.view-noticias .views-row{
+		width:73%;
+	}
+
 	/*Serviços view footer*/
 
 	.view-noticias .view-footer .news_top .service_title{

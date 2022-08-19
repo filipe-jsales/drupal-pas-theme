@@ -713,3 +713,10 @@ body.path-node .view-noticias-block .view-content img{
 .view-noticias .view-footer .contact .contact_box:hover{
 	
 }
+
+
+/*------------------view todas as notícias------------------*/
+
+body.path-noticias .view-noticias .views-row{
+	margin-bottom: 0px;
+}
