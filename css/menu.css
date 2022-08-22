@@ -1,0 +1,25 @@
+/*menus*/
+
+
+/*Responsive menu css*/
+
+
+/*Superfish menu smallscreen*/
+#header-wrapper .block-superfish{
+	height: 40px;
+}
+
+.sf-accordion-toggle{
+        background-color: #32b7df;
+	text-align:center;
+	text-transform: uppercase;
+	height: 40px;
+	margin-bottom: 8px;
+}
+.sf-accordion-toggle a{
+        color: #fff;
+	width: 100%;
+	display: block;
+	height: 100%;
+}
+

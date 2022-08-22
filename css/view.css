@@ -717,6 +717,23 @@ body.path-node .view-noticias-block .view-content img{
 
 /*------------------view todas as notícias------------------*/
 
-body.path-noticias .view-noticias .views-row{
+body.path-noticia .view-noticias .views-row{
 	margin-bottom: 0px;
+	text-align: center;
+}
+
+body.path-noticia #block-breadcrumbs{
+	max-width:1129px;
+	margin: 0 auto;
+}
+
+/*
+Paginador
+*/
+body.path-noticia .pager__item.is-active{
+	font-weight: bold;
+}
+
+body.path-noticia .pager__item{
+	font-size:14px;
 }

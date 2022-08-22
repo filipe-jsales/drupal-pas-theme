@@ -10,6 +10,7 @@ global-styling:
       css/style.css: {}
       css/modulos.css: {}
       css/media.css: {}
+      css/menu.css: {}
 global-scripts:
   version: 1.0
   js:

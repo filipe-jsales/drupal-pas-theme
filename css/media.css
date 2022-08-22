@@ -11,6 +11,33 @@
 	#header-wrapper #block-pas-theme-branding{
 		margin: 10px 0px 0px;
 	}
+	#header-wrapper #block-menurodape ul > li{
+		padding-bottom: 7px;
+	}
+	#header-wrapper #block-menurodape ul.menu li a{
+		text-align: center;
+	}
+	#header-wrapper ul.sf-menu.menu span{
+		background: #fff none repeat scroll 0 0;
+	}
+
+	/*Responsive Superfish menu*/
+
+	#superfish-menu-rodape-accordion #menu-rodape-menu-link-content402bea4d-7113-4bfb-a725-4b00ae898f4d-accordion a{
+		display: none;
+	}
+	.sf-clone-parent .sf-depth-1.nolink{
+		display: none;
+	}
+
+	#header-wrapper ul.sf-menu.menu li a:active{
+		background-color:red;
+	}
+
+	/*Breadcrumb*/
+	.breadcrumb ol{
+		padding-left: 63px;
+	}
 	/*Links Úteis - View Notícias*/
 
 	.view-noticias .view-header .links_uteis_wreapper{
@@ -55,19 +82,23 @@
 		margin: 10px auto;
 	}
 
-	.view-noticias .view-footer .contact .contact_content{
-		
-	}
-
-	.view-noticias .view-footer .contact .contact_box{
-		
-	}
-
 }
 
 @media only screen and (max-width:900px) {
 	body{
-/*		background-color:red;*/
+	}
+	#header-wrapper #block-pas-theme-search{
+		height: 42px;
+	}
+	.layout-container #header-wrapper{
+		height: 180px;
+	}
+	#container{
+		border-top: none;
+	}
+	/*Breadcrumb*/
+	.breadcrumb ol{
+		padding-left: 63px;
 	}
 	.view-front-banner .banner_central .content h1{
 		font-size:36px;
@@ -120,7 +151,7 @@
 
 	/*Sumindo o menu superfish enquanto nao ajeita o menu sf smallscreen*/
 	#header-wrapper .block-superfish{
-		display:none;
+		/*display:none;*/
 	}
 	#header-wrapper #search-block-form{
 		margin-top: 0px;
@@ -184,7 +215,15 @@
 		/*float:none;
 		margin-left:100px;*/
 	}
-	
+	#container{
+		border-top:none;
+	}
+	.layout-container #header-wrapper{
+		height: 195px;
+	}	
+	#header-wrapper #block-pas-theme-search{
+		height:50px;
+	}
 	/*Banner view front page*/
 	.view-front-banner .banner_central .content h1{
 		color: #1c1c1e;
@@ -217,7 +256,11 @@
 	.view-noticias .view-footer .service_item{
 		width:49%;
 	}
-
+	
+	/*Breadcrumb*/
+	.breadcrumb ol{
+		padding-left: 63px;
+	}
 	/*Footer*/
 
 	#footer-wrapper .region-footer #block-pas-theme-menurodape ul li{
