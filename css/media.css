@@ -14,6 +14,12 @@
 	#header-wrapper #block-menurodape ul > li{
 		padding-bottom: 7px;
 	}
+	#header-wrapper #block-menurodape ul li ul{
+		border-color: #dddddd;
+		border-style: solid;
+		border-width: 1px 1px 1px 4px;
+		box-shadow: 0 12px 14px rgba(0,0,0,0.176);
+	}
 	#header-wrapper #block-menurodape ul.menu li a{
 		text-align: center;
 	}
@@ -30,10 +36,9 @@
 		display: none;
 	}
 
-	#header-wrapper ul.sf-menu.menu li a:active{
-		background-color:red;
+	#header-wrapper ul.sf-menu.menu span{
+		height: 40px;
 	}
-
 	/*Breadcrumb*/
 	.breadcrumb ol{
 		padding-left: 63px;
