@@ -11,10 +11,6 @@
 	#header-wrapper #block-pas-theme-branding{
 		margin: 10px 0px 0px;
 	}
-	#header-wrapper #block-menurodape ul > li{
-/*		padding-bottom: 7px;*/
-	}
-
 	#header-wrapper #block-menurodape ul.menu li a{
 		text-align: center;
 	}
@@ -30,7 +26,10 @@
 	.sf-clone-parent .sf-depth-1.nolink{
 		display: none;
 	}
-
+	#header-wrapper .sf-accordion-toggle span{
+		display:block;
+		padding-top: 9px;
+	}
 
 	/*Breadcrumb*/
 	.breadcrumb ol{
@@ -105,6 +104,10 @@
 	#container{
 		border-top: none;
 	}
+	#header-wrapper .sf-accordion-toggle span{
+		padding-top:9px;
+	}
+
 	/*Breadcrumb*/
 	.breadcrumb ol{
 		padding-left: 63px;
@@ -238,6 +241,9 @@
 	#header-wrapper #block-menurodape li{
 		padding-right: 0px;
 		padding-left: 0px;
+	}
+	#header-wrapper .sf-accordion-toggle span{
+		padding-top: 9px;
 	}
 	#container{
 		border-top:none;

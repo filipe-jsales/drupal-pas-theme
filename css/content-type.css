@@ -38,8 +38,8 @@ body.path-node td{
 
 /*image with link*/
 body.path-node .text-formatted a img{
-	width:432px;
-	height:309px;
+	max-width:432px;
+	height:auto;
 	padding: 5px;
 	box-shadow: 0 0 3px #EEE;
 	background: #FFF;
@@ -96,8 +96,8 @@ body.path-node .node--type-noticias img{
 
 /*image with link*/
 body.path-node .text-formatted a img{
-	width:432px;
-	height:309px;
+	max-width:432px;
+	height:auto;
 	padding: 5px;
 	box-shadow: 0 0 3px #EEE;
 	background: #FFF;
@@ -107,12 +107,6 @@ body.path-node .text-formatted a img{
 body.path-node .text-formatted a img:hover{
 	background: #F0F0F0;
 }
-
-
-body.path-node .content-sidebar-wrap .region-content{
-	float:right;
-}
-
 
 /*node content */
 
