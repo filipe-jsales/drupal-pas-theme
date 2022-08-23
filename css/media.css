@@ -75,9 +75,9 @@
 		margin-top:40px;
 	}
 	.view-noticias .views-row{
-		width:49%;
-		margin-bottom: 25px;
+		width:100%;
 		margin: 10px auto;
+		text-align: center;
 	}
 
 	/*Notícias recentes sidebar first e sidebar second*/
@@ -268,8 +268,9 @@
 	
 	/*Notícias*/
 
-	.view-noticias .views-row{
+	body.path-noticia .view-noticias .views-row{
 		width:100%;
+		display:block;
 	}
 
 	/*Serviços view footer*/
