@@ -354,7 +354,6 @@
 
 /*title noticias*/
  .view-noticias .view-content .views-field-title{
-	width:340px;
 	margin-top:10px;
 	margin-bottom:25px;
 	text-align:center;
@@ -395,6 +394,7 @@
 	max-width:1129px;
 	margin: 0 auto;
 }
+
 
 /*--------------------FIM VIEW NOTICIAS--------------------------------------------------*/
 
@@ -645,13 +645,12 @@
 
 /*rightbar content*/
 body.path-node #sidebar-second{
-        float: right;
         width:24%;
+	display: inline-block;
+	vertical-align: top;
 }
 
 body.path-node .content-sidebar-wrap .region-content{
-        float:right;
-        width:100%;
 }
 
 

@@ -58,8 +58,6 @@ body.path-node  .text-formatted a img:hover{
 
 /*main content*/
 body.path-node #container{
-	clear:both;
-	overflow: hidden;
 	border-top: 3px double #cde;
 }
 
@@ -70,13 +68,11 @@ body.path-node .container-wrap{
 
 /*post content */
 body.path-node .content-sidebar-wrap{
-	float: left;
 	width:72%;
+	display: inline-block;
 }
 
 body.path-node .content-sidebar-wrap .region-content{
-	float:right;
-	width:100%;
 }
 
 
@@ -93,6 +89,10 @@ body.path-node .node--type-noticias  h1 span.field--name-title{
 	overflow: hidden;
 }
 
+body.path-node .node--type-noticias img{
+	height: auto;
+	width: 100%;
+}
 
 /*image with link*/
 body.path-node .text-formatted a img{
