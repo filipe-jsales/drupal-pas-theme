@@ -1,7 +1,6 @@
 
 /*
-  Reset CSS style
-*/
+  Resetar o estilo de CSS*/
 body.path-node p{
 	font-size: 14px;
 	font-family: 'Open Sans';
@@ -33,7 +32,7 @@ body.path-node td{
 
 
 /*
-  CSS Comum para todos os tipos de conteúdo
+  CSS Comum os tipos de conteúdo página notícia
 */
 
 /*image with link*/
@@ -67,14 +66,11 @@ body.path-node .container-wrap{
 }
 
 /*post content */
+
 body.path-node .content-sidebar-wrap{
 	width:72%;
 	display: inline-block;
 }
-
-body.path-node .content-sidebar-wrap .region-content{
-}
-
 
 body.path-node .node--type-noticias  h1 span.field--name-title{
 	font-family: 'Open Sans';
@@ -94,7 +90,6 @@ body.path-node .node--type-noticias img{
 	width: 100%;
 }
 
-/*image with link*/
 body.path-node .text-formatted a img{
 	max-width:432px;
 	height:auto;
@@ -136,7 +131,7 @@ body.path-node .node__content h2::after{
 	width: 100%;
 }
 
-/*lists in content field*/
+/*lists in field content*/
 body.path-node .field--name-body li{
 	margin-bottom: 5px;
 	margin-left: 30px;
@@ -177,17 +172,16 @@ body.path-node .node__content h2::after{
 /*quote style*/
 
 blockquote p {
-    quotes: none;
-    border: 1px solid rgb(226,220,220);
-    background: rgb(250,247,247) url(/themes/pas_theme/images/quote.png) no-repeat;
-    padding: 10px 5px 20px 47px;
-    text-shadow: 1px 1px #fff;
-    margin-bottom: 1px;
-    border-radius: 7px;
-    padding-right:25px;
+	quotes: none;
+	border: 1px solid rgb(226,220,220);
+	background: rgb(250,247,247) url(/themes/pas_theme/images/quote.png) no-repeat;
+	padding: 10px 5px 20px 47px;
+	text-shadow: 1px 1px #fff;
+	margin-bottom: 1px;
+	border-radius: 7px;
+	padding-right:25px;
 }
 
-/*content h3*/
 body.path-node .node__content h3{
 	font-weight: bold;
 	margin-bottom: 5px;
@@ -237,7 +231,7 @@ body.path-node .region-sidebar-second ul.menu li{
 	font-size:14px;
 }
 
-/*active atual*/
+/*active link style*/
 body.path-node .region-sidebar-second .menu li a.is-active{
 	color: #555;
 	border: 1px solid #eaeff2;
@@ -248,7 +242,7 @@ body.path-node .region-sidebar-second .menu li a.is-active{
 	background: #f6f6f6;
 }
 
-/* hover style*/
+/*hover sidebar second style*/
 body.path-node .region-sidebar-second .menu li a.is-active:hover{
         border-left: 3px solid #d7d8da;
         background: #f6f6f6;
@@ -271,9 +265,8 @@ body.path-node .region-sidebar-second .menu li a:hover{
 
 /*
   Tipos de conteúdo Artigo
-  Configuração da segunda barra lateral
+  Configuração da barra lateral
 */
-
 
 
 /*CSS content-type artigos*/
@@ -305,12 +298,6 @@ body.path-node .node--promoted h1 span::after{
 
 /*content title*/
 body.path-node .content-sidebar-wrap-70 .region-content .node--type-noticias h1{
-	margin: 16px 0px 0px 0px;
-}
-
-/*content title*/
-body.path-node .content-sidebar-wrap-70 .region-content .node--type-noticias h1{
-	
 	margin: 16px 0px 0px 0px;
 }
 
