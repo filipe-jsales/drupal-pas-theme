@@ -17,15 +17,12 @@
 	margin-top:15px;
 }
 
-#footer-wrapper .region-footer ul.menu{
-	/*margin: 3px 0 0 -16px;*/
-}
 
 #footer-wrapper .region-footer .menu > .first{
 	display: none;
 }
 
-/*align list horizontal*/
+/*align list horizontally*/
 #footer-wrapper .region-footer #block-pas-theme-menurodape ul li{
 	min-width: 12%;
 	margin-right: 10px;
@@ -45,7 +42,7 @@
 	display:none;
 }
 
-/*order list subitems in vertical*/
+/*order list subitems vertically*/
 
 #footer-wrapper .region-footer #block-pas-theme-menurodape ul.menu li.menu-item li{
 	display:block
