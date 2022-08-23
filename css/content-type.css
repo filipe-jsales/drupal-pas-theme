@@ -62,8 +62,8 @@ body.path-node #container{
 }
 
 body.path-node .container-wrap{
-	max-width: 1129px !important;
-	margin: 0 auto !important;
+	max-width: 1129px ;
+	margin: 0 auto ;
 }
 
 /*post content */
@@ -78,7 +78,7 @@ body.path-node .content-sidebar-wrap .region-content{
 
 body.path-node .node--type-noticias  h1 span.field--name-title{
 	font-family: 'Open Sans';
-	font-size: 2em !important;
+	font-size: 2em ;
 	text-align: center;
 	font-weight: bold;
 	color: #303c49;
@@ -322,7 +322,7 @@ body.path-node .content-sidebar-wrap-70 .region-content .node--type-noticias h1{
 
 body.path-node .node--type-noticias  h1 span.field--name-title{
 	font-family: 'Open Sans';
-	font-size: 2em !important;
+	font-size: 2em;
 	text-align: center;
 	font-weight: bold;
 	color: #303c49;
